@@ -55,10 +55,25 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Single-objective | [Large Language Model-Based Evolutionary Optimizer: Reasoning with Elitism](https://arxiv.org/pdf/2403.02054) | arXiv | 2024 | N/A | LEO |
 | Single-objective (Application) | [CUDA-Accelerated Soft Robot Neural Evolution with Large Language Model Supervision](https://arxiv.org/pdf/2405.00698) | arXiv | 2024 | N/A | Zhang |
 | Single-objective (Application) | [Evolving Interpretable Visual Classifiers with Large Language Models](https://arxiv.org/pdf/2404.09941) | arXiv | 2024 | N/A | LLM-Mutate |
+| Multi-objective | [Quality-Diversity through AI Feedback](https://arxiv.org/pdf/2310.13032v4) | Workshop in NeurIPS | 2023 | [Python](https://openreview.net/attachment?id=nr0w6CH7v4&name=supplementary_material) | QDAIF |
+| Multi-objective | [Large Language Model for Multi-objective Evolutionary Optimization](https://arxiv.org/pdf/2310.12541) | arXiv | 2023 | [Python](https://github.com/FeiLiu36/LLM4MOEA) | LLM4MOEA |
+| Multi-objective | [Large Language Models as In-context AI Generators for Quality-Diversity](https://arxiv.org/pdf/2404.15794) | arXiv | 2024 | N/A | In-context QD |
+| Multi-objective | [Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization](https://arxiv.org/pdf/2405.05767) | arXiv | 2024 | N/A | CMOEA-LLM |
 
 
 ### LLM-assisted Optimization Algorithm Generation
 
+| **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |      Generated Algorithm                   |
+| -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
+| Pluhacek et al. | [Leveraging Large Language Models for the Generation of Novel Metaheuristic Optimization Algorithms](https://dl.acm.org/doi/abs/10.1145/3583133.3596401) | GECCO | 2023 | N/A | Hybrid swarm intelligence optimization algorithm |
+| OptiMUS | [OptiMUS: Optimization Modeling Using MIP Solvers and Large Language Models](https://arxiv.org/pdf/2310.06116) | arXiv | 2023 | [Python](https://github.com/teshnizi/OptiMUS) | Mixed-integer linear programming problem |
+| AEL | [Evolution of Heuristics: Towards Efficient Automatic Algorithm Design using Large Language Model](https://arxiv.org/pdf/2401.02051) | ICML | 2024 | [Python](https://github.com/FeiLiu36/EoH) | Heuristic algorithm |
+| ReEvo | [ReEvo: Large Language Models as Hyper-Heuristics with Reflective Evolution](https://arxiv.org/pdf/2402.01145) | arXiv | 2024 | [Python](https://github.com/ai4co/LLM-as-HH) | Heuristic algorithm |
+| LLM_GP | [Evolving Code with A Large Language Model](https://arxiv.org/pdf/2401.07102) | arXiv | 2024 | N/A | Genetic Programming |
+| ZSO | [Leveraging Large Language Model to Generate a Novel Metaheuristic Algorithm with CRISPE Framework](https://arxiv.org/pdf/2403.16417) | arXiv | 2024 | [Python](https://github.com/RuiZhong961230/ZSO) | Zoological search optimization algorithm |
+| SR-EAD | [Evolution Transformer: In-Context Evolutionary Optimization](https://arxiv.org/pdf/2403.02985) | arXiv | 2024 | [Python](https://github.com/RobertTLange/evosax) | Evolutionary strategy or evolution transformer |
+| EvolCAF | [Evolve Cost-aware Acquisition Functions Using Large Language Models](https://arxiv.org/pdf/2404.16906) | arXiv | 2024 | [Python](https://github.com/RobertTLange/evosax) | Cost-aware Bayesian optimization |
+| OpenELM | [The OpenELM Library: Leveraging Progress in Language Models for Novel Evolutionary Algorithms](https://arxiv.org/pdf/2404.16906) | arXiv | 2024 | [Python](https://github.com/CarperAI/OpenELM) | Open-source Python library |
 
 ### LLM Empower EA for Other Capabilities
 
