@@ -79,13 +79,34 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 
 | **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |      Enhancement Aspect                 |
 | -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
-| AS-LLM | [Large Language Model-Enhanced Algorithm Selection: Towards Comprehensive Algorithm Representation](https://arxiv.org/pdf/2311.13184) | IJCAI | 2024 | [Python](https://github.com/wuxingyu-ai/AS-LLM) | Algorithm representation and algorithm selection |
 | OptiChat | [Diagnosing Infeasible Optimization Problems Using Large Language Models](https://arxiv.org/pdf/2308.12923) | arXiv | 2023 | [Python](https://github.com/li-group/OptiChat) | Identify potential sources of infeasibility |
+| AS-LLM | [Large Language Model-Enhanced Algorithm Selection: Towards Comprehensive Algorithm Representation](https://arxiv.org/pdf/2311.13184) | IJCAI | 2024 | [Python](https://github.com/wuxingyu-ai/AS-LLM) | Algorithm representation and algorithm selection |
 | GP4NLDR | [Explaining Genetic Programming Trees Using Large Language Models](https://arxiv.org/pdf/2403.03397) | arXiv | 2024 | N/A |  Provide explainability for results of EA |
 
 ## EA-enhanced LLM
 
 ### EA-based Prompt Engineering
+
+| **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
+| -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
+| Discrete Prompt Optimization | GrIPS | [GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models](https://arxiv.org/pdf/2203.07281) | EACL | 2023 | [Python](https://github.com/archiki/GrIPS) |
+| Discrete Prompt Optimization | GPS | [GPS: Genetic Prompt Search for Efficient Few-shot Learning](https://arxiv.org/pdf/2210.17041) | EMNLP | 2022 | [Python](https://github.com/hwxu20/GPS) |
+| Discrete Prompt Optimization | EvoPrompt | [Connecting Large Language Models with Evolutionary Algorithms Yields Powerful Prompt Optimizers](https://arxiv.org/pdf/2309.08532) | ICLR | 2024 | [Python](https://github.com/beeevita/EvoPrompt) |
+| Discrete Prompt Optimization | Plum | [Plum: Prompt Learning Using Metaheuristic](https://arxiv.org/pdf/2311.08364) | arXiv | 2024 | [Python](https://github.com/research4pan/Plum) |
+| Discrete Prompt Optimization | SPELL | [SPELL: Semantic Prompt Evolution Based on A LLM](https://arxiv.org/pdf/2310.01260) | arXiv | 2023 | N/A |
+| Discrete Prompt Optimization | EoT prompting | [Zero-Shot Chain-of-Thought Reasoning Guided by Evolutionary Algorithms in Large Language Models](https://arxiv.org/pdf/2402.05376) | arXiv | 2024 | [Python](https://github.com/stan-anony/Zero-shot-EoT-Prompting) |
+| Discrete Prompt Optimization | PhaseEvo | [PhaseEvo: Towards Unified In-Context Prompt Optimization for Large Language Models](https://arxiv.org/pdf/2402.11347) | arXiv | 2024 | N/A |
+| Discrete Prompt Optimization | InstOptima | [InstOptima: Evolutionary Multi-objective Instruction Optimization via Large Language Model-based Instruction Operators](https://arxiv.org/pdf/2310.17630) | EMNLP | 2023 | [Python](https://github.com/yangheng95/InstOptima) |
+| Discrete Prompt Optimization | EMO-Prompts | [Evolutionary Multi-Objective Optimization of Large Language Model Prompts for Balancing Sentiments](https://arxiv.org/pdf/2401.09862) | EvoApplications | 2024 | [Python]() |
+| Gradient-Free Soft Prompt Optimization | BBT | [Black-Box Tuning for Language-Model-as-a-Service](https://proceedings.mlr.press/v162/sun22e/sun22e.pdf) | ICML | 2022 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
+| Gradient-Free Soft Prompt Optimization | BBTv2 | [BBTv2: Towards a Gradient-Free Future with Large Language Models](https://arxiv.org/pdf/2205.11200) | EMNLP | 2022 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
+| Gradient-Free Soft Prompt Optimization | Clip-Tuning | [Clip-Tuning: Towards Derivative-free Prompt Learning with a Mixture of Rewards](https://aclanthology.org/2022.findings-emnlp.8.pdf) | EMNLP | 2022 | N/A |
+| Prompt Generation for Data Augmentation | Evol-Instruct | [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/pdf/2304.12244) | ICLR | 2024 | [Python](https://github.com/nlpxucan/WizardLM) |
+| Prompt Generation for Data Augmentation | Sun et al. | [Dial-insight: Fine-tuning Large Language Models with High-Quality Domain-Specific Data Preventing Capability Collapse](https://arxiv.org/pdf/2403.09167) | arXiv | 2024 | N/A |
+| Prompt Generation for Security | AutoDAN | [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models](https://arxiv.org/pdf/2310.04451) | ICLR | 2024 | [Python](https://github.com/SheltonLiu-N/AutoDAN) |
+| Prompt Generation for Security | Jailbreak Attacks | [Open Sesame! Universal Black Box Jailbreaking of Large Language Models](https://arxiv.org/pdf/2309.01446) | arXiv | 2024 | N/A |
+| Prompt Generation for Security | SMEA | [Is the System Message Really Important to Jailbreaks in Large Language Models?](https://arxiv.org/pdf/2402.14857) | arXiv | 2024 | N/A |
+| Prompt Generation for Security | Shi et al. | [Red Teaming Language Model Detectors with Language Models](https://arxiv.org/pdf/2305.19713) | TACL | 2024 | [Python](https://github.com/shizhouxing/LLM-Detector-Robustness) |
 
 ### EA-based LLM Architecture Search
 
