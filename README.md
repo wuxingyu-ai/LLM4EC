@@ -77,6 +77,11 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 
 ### LLM Empower EA for Other Capabilities
 
+| **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |      Enhancement Aspect                 |
+| -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
+| AS-LLM | [Large Language Model-Enhanced Algorithm Selection: Towards Comprehensive Algorithm Representation](https://arxiv.org/pdf/2311.13184) | IJCAI | 2024 | [Python](https://github.com/wuxingyu-ai/AS-LLM) | Algorithm representation and algorithm selection |
+| OptiChat | [Diagnosing Infeasible Optimization Problems Using Large Language Models](https://arxiv.org/pdf/2308.12923) | arXiv | 2023 | [Python](https://github.com/li-group/OptiChat) | Identify potential sources of infeasibility |
+| GP4NLDR | [Explaining Genetic Programming Trees Using Large Language Models](https://arxiv.org/pdf/2403.03397) | arXiv | 2024 | N/A |  Provide explainability for results of EA |
 
 ## EA-enhanced LLM
 
