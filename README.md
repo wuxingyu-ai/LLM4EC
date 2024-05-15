@@ -8,7 +8,7 @@ A list of awesome papers and resources of the intersection of Large Language Mod
 ***The related work and projects will be updated soon and continuously.***
 
 <div align="center">
-	<img src="https://github.com/WLiK/LLM4Rec-Awesome-Papers/blob/main/llm4rec_paradigms.png" alt="Editor" width="700">
+	<img src="https://github.com/wuxingyu-ai/LLM4EC/blob/main/Framework.png" alt="Editor" width="600">
 </div>
 
 If our work has been of assistance to you, please feel free to cite our survey. Thank you.
