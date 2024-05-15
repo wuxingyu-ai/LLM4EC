@@ -112,12 +112,33 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 
 Note: Approaches discussed here primarily focus on LLM architecture search, and their techniques are based on EAs.
 
+| **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |      LLM                 |
+| -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
+| AutoBERT-Zero | [AutoBERT-Zero: Evolving BERT Backbone from Scratch](https://arxiv.org/pdf/2107.07445) | AAAI | 2022 | [Python](https://github.com/JunnYu/AutoBERT-Zero-pytorch/tree/main) | BERT |
+| SuperShaper | [SuperShaper: Task-Agnostic Super Pre-training of BERT Models with Variable Hidden Dimensions](https://arxiv.org/pdf/2110.04711) | arXiv | 2021 | N/A | BERT |
+| AutoTinyBERT | [AutoTinyBERT: Automatic Hyper-parameter Optimization for Efficient Pre-trained Language Models](https://arxiv.org/pdf/2107.13686) | ACL | 2021 | [Python](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/AutoTinyBERT) | BERT |
+| LiteTransformerSearch | [LiteTransformerSearch: Training-free Neural Architecture Search for Efficient Language Models](https://arxiv.org/pdf/2203.02094) | NeurIPS | 2022 | [Python](https://github.com/microsoft/archai/tree/neurips-lts/archai/nlp) | GPT-2 |
+| Klein et al. | [Structural Pruning of Large Language Models via Neural Architecture Search](https://openreview.net/pdf?id=SHlZcInS6C) | AutoML | 2023 | N/A | BERT |
+| Choong et al. | [Jack and Masters of All Trades: One-Pass Learning of a Set of Model Sets from Foundation AI Models](https://arxiv.org/pdf/2205.00671) | IEEE CIM | 2023 | N/A | M2M100-418M, ResNet-18 |
+
 ### EA Empower LLM for Other Capabilities
 
+| **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |      Enhancement Aspect                 |
+| -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
+| Length-Adaptive Transformer Model | [Length-Adaptive Transformer: Train Once with Length Drop, Use Anytime with Search](https://aclanthology.org/2021.acl-long.508.pdf) | ACL | 2021 | [Python](https://github.com/clovaai/length-adaptive-transformer) | Automatically adjust the sequence length according to different computational resource constraints |
+| HexGen | [HexGen: Generative Inference of Large-Scale Foundation Model over Heterogeneous Decentralized Environment](https://arxiv.org/pdf/2311.11514) | arXiv | 2023 | [Python](https://github.com/Relaxed-System-Lab/HexGen) | Deploy generative inference services for LLMs in a heterogeneous distributed environment |
+| LongRoPE | [LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/pdf/2402.13753) | arXiv | 2023 | [Python](https://github.com/microsoft/LongRoPE) | Extend the context window of LLMs to 2048k tokens |
+| Evolutionary Model Merge | [Evolutionary Optimization of Model Merging Recipes](https://arxiv.org/pdf/2403.13187) | arXiv | 2024 | [Python](https://github.com/SakanaAI/evolutionary-model-merge) | Utilize CMA-ES algorithm to optimize merged LLM in both parameter and data flow space |
+| BLADE | [BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models](https://arxiv.org/pdf/2403.18365) | arXiv | 2024 | N/A | Find soft prompts that optimizes the consistency between the outputs of two models |
+| Self-evolution in LLM | [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) | arXiv | 2024 | [Summary](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/Awesome-Self-Evolution-of-LLM) | Some studies for LLM self-evolution also adopted the ideas of EAs |
 
 ## Integrated Synergy and Application of LLM and EA
 
 ### Code Generation
+
+| **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |      Applicable scenarios                   |
+| -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
+|  | []() |  |  | [Python]() |  |
 
 ### Software Engineering
 
