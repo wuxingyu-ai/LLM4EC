@@ -55,7 +55,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Single-objective | [Large Language Model-Based Evolutionary Optimizer: Reasoning with Elitism](https://arxiv.org/pdf/2403.02054) | arXiv | 2024 | N/A | LEO |
 | Single-objective (Application) | [CUDA-Accelerated Soft Robot Neural Evolution with Large Language Model Supervision](https://arxiv.org/pdf/2405.00698) | arXiv | 2024 | N/A | Zhang |
 | Single-objective (Application) | [Evolving Interpretable Visual Classifiers with Large Language Models](https://arxiv.org/pdf/2404.09941) | arXiv | 2024 | N/A | LLM-Mutate |
-| Multi-objective | [Quality-Diversity through AI Feedback](https://arxiv.org/pdf/2310.13032v4) | Workshop in NeurIPS | 2023 | [Python](https://openreview.net/attachment?id=nr0w6CH7v4&name=supplementary_material) | QDAIF |
+| Multi-objective | [Quality-Diversity through AI Feedback](https://arxiv.org/pdf/2310.13032v4) | Workshop at NeurIPS | 2023 | [Python](https://openreview.net/attachment?id=nr0w6CH7v4&name=supplementary_material) | QDAIF |
 | Multi-objective | [Large Language Model for Multi-objective Evolutionary Optimization](https://arxiv.org/pdf/2310.12541) | arXiv | 2023 | [Python](https://github.com/FeiLiu36/LLM4MOEA) | LLM4MOEA |
 | Multi-objective | [Large Language Models as In-context AI Generators for Quality-Diversity](https://arxiv.org/pdf/2404.15794) | arXiv | 2024 | N/A | In-context QD |
 | Multi-objective | [Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization](https://arxiv.org/pdf/2405.05767) | arXiv | 2024 | N/A | CMOEA-LLM |
@@ -138,17 +138,59 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 
 | **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |      Applicable scenarios                   |
 | -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
-|  | []() |  |  | [Python]() |  |
+| ELM | [Evolution through Large Models](https://arxiv.org/pdf/2206.08896) | arXiv | 2022 | [Python](https://github.com/CarperAI/OpenELM) | Universal code generation |
+| Pinna et al. | [Enhancing Large Language Models-Based Code Generation by Leveraging Genetic Improvement](https://link.springer.com/chapter/10.1007/978-3-031-56957-9_7) | ECGP | 2024 | [Python](https://github.com/dravalico/LLMGIpy) | Universal code generation |
+| WizardCoder | [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://openreview.net/pdf?id=UnUwSIgK5W) | ICLR | 2024 | [Python](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder) | Universal code generation |
+| SEED | [SEED: Domain-Specific Data Curation With Large Language Models](https://arxiv.org/pdf/2310.00749) | arXiv | 2023 | N/A | Data cleaning tasks |
+| EUREKA | [Eureka: Human-Level Reward Design via Coding Large Language Models](https://arxiv.org/pdf/2310.12931) | ICLR | 2024 | [Python](https://github.com/eureka-research/Eureka) | Design reward in reinforcement learning |
+| EROM | [Evolutionary Reward Design and Optimization with Multimodal Large Language Models](https://openreview.net/pdf?id=PwlKdPDZK4) | Workshop at ICRA | 2023 | N/A | Design reward in reinforcement learning |
+| Zhang et al. | [A Simple Framework for Intrinsic Reward-Shaping for RL using LLM Feedback](https://alexzhang13.github.io/assets/pdfs/Reward_Shaping_LLM.pdf) | Github | 2024 | N/A | Design reward in reinforcement learning |
+| Diffusion-ES | [Diffusion-ES: Gradient-free Planning with Diffusion for Autonomous Driving and Zero-Shot Instruction Following](https://arxiv.org/pdf/2402.06559) | arXiv | 2024 | N/A |Design reward in reinforcement learning  |
+| GPT4AIGChip | [GPT4AIGChip: Towards Next-Generation AI Accelerator Design Automation via Large Language Models](https://arxiv.org/pdf/2309.10730) | ICCAD | 2023 | N/A | Design AI accelerator |
+| FunSearch | [Mathematical discoveries from program search with large language models](https://www.nature.com/articles/s41586-023-06924-6.pdf) | Nature | 2023 | [Python](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-06924-6/MediaObjects/41586_2023_6924_MOESM2_ESM.zip) | For mathematical and algorithmic discovery |
+| L-AutoDA | [L-AutoDA: Leveraging Large Language Models for Automated Decision-based Adversarial Attacks](https://arxiv.org/pdf/2401.15335) | arXiv | 2024 | N/A | For decision-based adversarial attacks |
+| LLM-SR | [LLM-SR: Scientific Equation Discovery via Programming with Large Language Models](https://arxiv.org/pdf/2404.18400) | arXiv | 2024 | [Python](https://github.com/deep-symbolic-mathematics/llm-sr) | For scientific equation discovery from data |
+| Shojaee et al. | [Identify Critical Nodes in Complex Network with Large Language Models](https://arxiv.org/pdf/2403.03962) | arXiv | 2024 | [Python](https://anonymous.4open.science/r/LLM4CN-6520/README.md) | Node importance scoring functions in complex networks |
+| DeceptPrompt | [DeceptPrompt: Exploiting LLM-driven Code Generation via Adversarial Natural Language Instructions](https://arxiv.org/pdf/2312.04730) | arXiv | 2023 | N/A | For LLM Security |
+| G3P with LLM | [Program Synthesis with Generative Pre-trained Transformers and Grammar-Guided Genetic Programming Grammar](https://ieeexplore.ieee.org/document/10409384) | LA-CCI | 2023 | N/A | For LLM Security |
 
 ### Software Engineering
+
+| **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |      Applicable scenarios                    |
+| -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
+| Kang et al. | [Towards Objective-Tailored Genetic Improvement Through Large Language Models](https://ieeexplore.ieee.org/abstract/document/10190823) | Workshop at ICSE | 2023 | N/A | Software Optimization |
+| Brownlee et al. | [Enhancing Genetic Improvement Mutations Using Large Language Models](https://arxiv.org/pdf/2310.19813) | SSBSE | 2023 | N/A | Software Optimization |
+| TitanFuzz | [Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models](https://dl.acm.org/doi/abs/10.1145/3597926.3598067) | ISSTA | 2023 | N/A | Software Testing |
+| CodaMOSA | [CODAMOSA: Escaping Coverage Plateaus in Test Generation with Pre-trained Large Language Models](https://ieeexplore.ieee.org/document/10172800) | ICSE | 2023 | [Python](https://github.com/microsoft/codamosa) | Software Testing |
+| SBSE | [Search-based Optimisation of LLM Learning Shots for Story Point Estimation](https://dl.acm.org/doi/abs/10.1007/978-3-031-48796-5_9) | SSBSE | 2023 | N/A | Software Project Planning |
 
 ### Neural Architecture Search
 
 Note: Methods reviewed here leverage the synergistic combination of EAs and LLMs, which are more versatile and not limited to LLM architecture search alone, applicable to a broader range of NAS tasks..
 
+| **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |       Role of LLM                    |
+| -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
+| GPT-NAS | [GPT-NAS: Evolutionary Neural Architecture Search with the Generative Pre-Trained Model](https://arxiv.org/pdf/2305.05351) | arXiv | 2023 | N/A | Representation Capability |
+| LLMatic | [LLMatic: Neural Architecture Search via Large Language Models and Quality Diversity Optimization](https://arxiv.org/pdf/2306.01102) | GECCO | 2024 | [Python](https://openreview.net/attachment?id=iTrd5xyHLP&name=supplementary_material) | Generation Capability |
+| Evoprompting | [EvoPrompting: Language Models for Code-Level Neural Architecture Search](https://arxiv.org/pdf/2302.14838) | NeurIPS | 2023 | [Python](https://github.com/algopapi/EvoPrompting_Reinforcement_learning) | Generation Capability |
+| Guided Evolution | [LLM Guided Evolution -- The Automation of Models Advancing Models](https://arxiv.org/pdf/2403.11446) | arXiv | 2023 | [Python](https://github.com/clint-kristopher-morris/llm-guided-evolution) | Generation Capability |
+| GPTN-SS | [Discovering More Effective Tensor Network Structure Search Algorithms via Large Language Models (LLMs)](https://arxiv.org/pdf/2402.02456) | arXiv | 2024 | N/A | Generation Capability |
+| GENIUS | [Can GPT-4 Perform Neural Architecture Search?](https://arxiv.org/pdf/2304.10970) | arXiv | 2023 | [Python](https://github.com/mingkai-zheng/GENIUS) | Generation Capability |
+| GPT4GNAS | [Graph Neural Architecture Search with GPT-4](https://arxiv.org/pdf/2310.01436) | arXiv | 2023 | N/A | Generation Capability |
+| Jawahar et al. | [LLM Performance Predictors are good initializers for Architecture Searc](https://arxiv.org/pdf/2310.16712) | arXiv | 2023 | N/A | Reasoning Capability |
+| ReStruct | [Large Language Model-driven Meta-structure Discovery in Heterogeneous Information Network](https://arxiv.org/pdf/2402.11518) | arXiv | 2024 | N/A | Reasoning Capability |
+
 ### Others Generative Tasks
 
-
+| **Task** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
+| -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
+| Text Generation | NSG | [Enhancing LLM with Evolutionary Fine Tuning for News Summary Generation](https://arxiv.org/pdf/2307.02839) | Journal of Intelligent and Fuzzy Systems | 2024 | N/A |
+| Text Generation | SCAPE | [SCAPE: Searching Conceptual Architecture Prompts using Evolution](https://arxiv.org/pdf/2402.00089) | CEC | 2024 | [Python](https://github.com/soolinglim/webllm/) |
+| Text Generation | Mario-GPT | [Prompt-Guided Level Generation](https://dl.acm.org/doi/abs/10.1145/3583133.3590656) | GECCO | 2024 | [Python](https://github.com/shyamsn97/mario-gpt) |
+| Text-to-image Generation | StableYolo | [StableYolo: Optimizing Image Generation for Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-48796-5_10) | SSBSE | 2023 | [Python](https://github.com/SOLAR-group/StableYolo) |
+| Natural Science | Researchers from McGill University | [14 Examples of How LLMs Can Transform Materials Science and Chemistry: A Reflection on a Large Language Model Hackathon](https://arxiv.org/pdf/2306.06283) | Digital Discovery | 2023 | N/A |
+| Natural Science | LLM-GA | [Integrating Genetic Algorithms and Language Models for Enhanced Enzyme Design](https://chemrxiv.org/engage/chemrxiv/article-details/65f0746b9138d23161510400) | ChemRxiv | 2024 | N/A |
+| Social Science | Suzuki et al. | [An Evolutionary Model of Personality Traits Related to Cooperative Behavior Using A Large Language Model](https://www.nature.com/articles/s41598-024-55903-y) | Scientific Reports | 2024 | N/A |
 
 Hope our conclusion can help your work.
 
