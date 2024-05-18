@@ -34,10 +34,11 @@ If our work has been of assistance to you, please feel free to cite our survey. 
     - [EA-based Prompt Engineering](#ea-based-prompt-engineering)
     - [EA-based LLM Architecture Search](#ea-based-llm-architecture-search)
     - [EA Empower LLM for Other Capabilities](#ea-empower-llm-for-other-capabilities)
-  - [Integrated Synergy and Application of LLM and EA](#integrated-synergy-and-application-of-llm-and-ea)
+  - [Applications Driven by Integrated Synergy of LLM and EA](#applications-driven-by-integrated-synergy-of-llm-and-ea)
     - [Code Generation](#code-generation)
     - [Software Engineering](#software-engineering)
     - [Neural Architecture Search](#neural-architecture-search)
+	- [Others Generative Tasks](#others-generative-tasks)
 
 ## LLM-enhanced EA
 
@@ -137,7 +138,7 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | BLADE | [BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models](https://arxiv.org/pdf/2403.18365) | arXiv | 2024 | N/A | Find soft prompts that optimizes the consistency between the outputs of two models |
 | Self-evolution in LLM | [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) | arXiv | 2024 | [Summary](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/Awesome-Self-Evolution-of-LLM) | Some studies for LLM self-evolution also adopted the ideas of EAs |
 
-## Integrated Synergy and Application of LLM and EA
+## Applications Driven by Integrated Synergy of LLM and EA
 
 ### Code Generation
 
