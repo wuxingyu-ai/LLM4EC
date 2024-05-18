@@ -67,13 +67,13 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
 | Pluhacek et al. | [Leveraging Large Language Models for the Generation of Novel Metaheuristic Optimization Algorithms](https://dl.acm.org/doi/abs/10.1145/3583133.3596401) | GECCO | 2023 | N/A | Hybrid swarm intelligence optimization algorithm |
 | OptiMUS | [OptiMUS: Optimization Modeling Using MIP Solvers and Large Language Models](https://arxiv.org/pdf/2310.06116) | arXiv | 2023 | [Python](https://github.com/teshnizi/OptiMUS) | Mixed-integer linear programming problem |
+| ZSO | [Leveraging Large Language Model to Generate a Novel Metaheuristic Algorithm with CRISPE Framework](https://arxiv.org/pdf/2403.16417) | arXiv | 2024 | [Python](https://github.com/RuiZhong961230/ZSO) | Zoological search optimization algorithm |
 | AEL | [Evolution of Heuristics: Towards Efficient Automatic Algorithm Design using Large Language Model](https://arxiv.org/pdf/2401.02051) | ICML | 2024 | [Python](https://github.com/FeiLiu36/EoH) | Heuristic algorithm |
 | ReEvo | [ReEvo: Large Language Models as Hyper-Heuristics with Reflective Evolution](https://arxiv.org/pdf/2402.01145) | arXiv | 2024 | [Python](https://github.com/ai4co/LLM-as-HH) | Heuristic algorithm |
 | LLM_GP | [Evolving Code with A Large Language Model](https://arxiv.org/pdf/2401.07102) | arXiv | 2024 | N/A | Genetic Programming |
-| ZSO | [Leveraging Large Language Model to Generate a Novel Metaheuristic Algorithm with CRISPE Framework](https://arxiv.org/pdf/2403.16417) | arXiv | 2024 | [Python](https://github.com/RuiZhong961230/ZSO) | Zoological search optimization algorithm |
 | SR-EAD | [Evolution Transformer: In-Context Evolutionary Optimization](https://arxiv.org/pdf/2403.02985) | arXiv | 2024 | [Python](https://github.com/RobertTLange/evosax) | Evolutionary strategy or evolution transformer |
 | EvolCAF | [Evolve Cost-aware Acquisition Functions Using Large Language Models](https://arxiv.org/pdf/2404.16906) | arXiv | 2024 | [Python](https://github.com/RobertTLange/evosax) | Cost-aware Bayesian optimization |
-| OpenELM | [The OpenELM Library: Leveraging Progress in Language Models for Novel Evolutionary Algorithms](https://arxiv.org/pdf/2404.16906) | arXiv | 2024 | [Python](https://github.com/CarperAI/OpenELM) | Open-source Python library |
+
 
 ### LLM Empower EA for Other Capabilities
 
@@ -92,15 +92,20 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Discrete Prompt Optimization | GrIPS | [GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models](https://arxiv.org/pdf/2203.07281) | EACL | 2023 | [Python](https://github.com/archiki/GrIPS) |
 | Discrete Prompt Optimization | GPS | [GPS: Genetic Prompt Search for Efficient Few-shot Learning](https://arxiv.org/pdf/2210.17041) | EMNLP | 2022 | [Python](https://github.com/hwxu20/GPS) |
 | Discrete Prompt Optimization | EvoPrompt | [Connecting Large Language Models with Evolutionary Algorithms Yields Powerful Prompt Optimizers](https://arxiv.org/pdf/2309.08532) | ICLR | 2024 | [Python](https://github.com/beeevita/EvoPrompt) |
-| Discrete Prompt Optimization | Plum | [Plum: Prompt Learning Using Metaheuristic](https://arxiv.org/pdf/2311.08364) | arXiv | 2024 | [Python](https://github.com/research4pan/Plum) |
+| Discrete Prompt Optimization | Plum | [Plum: Prompt Learning Using Metaheuristic](https://arxiv.org/pdf/2311.08364) | arXiv | 2023 | [Python](https://github.com/research4pan/Plum) |
+| Discrete Prompt Optimization | PromptBreeder | [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/pdf/2309.16797) | arXiv | 2023 | N/A |
 | Discrete Prompt Optimization | SPELL | [SPELL: Semantic Prompt Evolution Based on A LLM](https://arxiv.org/pdf/2310.01260) | arXiv | 2023 | N/A |
 | Discrete Prompt Optimization | EoT prompting | [Zero-Shot Chain-of-Thought Reasoning Guided by Evolutionary Algorithms in Large Language Models](https://arxiv.org/pdf/2402.05376) | arXiv | 2024 | [Python](https://github.com/stan-anony/Zero-shot-EoT-Prompting) |
+| Discrete Prompt Optimization | iPrompt | [Explaining Patterns in Data with Language Models via Interpretable Autoprompting](https://arxiv.org/pdf/2210.01848) | arXiv | 2023 | [Python](https://openreview.net/attachment?id=GvMuB-YsiK6&name=supplementary_material) |
 | Discrete Prompt Optimization | PhaseEvo | [PhaseEvo: Towards Unified In-Context Prompt Optimization for Large Language Models](https://arxiv.org/pdf/2402.11347) | arXiv | 2024 | N/A |
 | Discrete Prompt Optimization | InstOptima | [InstOptima: Evolutionary Multi-objective Instruction Optimization via Large Language Model-based Instruction Operators](https://arxiv.org/pdf/2310.17630) | EMNLP | 2023 | [Python](https://github.com/yangheng95/InstOptima) |
 | Discrete Prompt Optimization | EMO-Prompts | [Evolutionary Multi-Objective Optimization of Large Language Model Prompts for Balancing Sentiments](https://arxiv.org/pdf/2401.09862) | EvoApplications | 2024 | [Python]() |
 | Gradient-Free Soft Prompt Optimization | BBT | [Black-Box Tuning for Language-Model-as-a-Service](https://proceedings.mlr.press/v162/sun22e/sun22e.pdf) | ICML | 2022 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
 | Gradient-Free Soft Prompt Optimization | BBTv2 | [BBTv2: Towards a Gradient-Free Future with Large Language Models](https://arxiv.org/pdf/2205.11200) | EMNLP | 2022 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
 | Gradient-Free Soft Prompt Optimization | Clip-Tuning | [Clip-Tuning: Towards Derivative-free Prompt Learning with a Mixture of Rewards](https://aclanthology.org/2022.findings-emnlp.8.pdf) | EMNLP | 2022 | N/A |
+| Gradient-Free Soft Prompt Optimization | Shen et al. | [Reliable Gradient-free and Likelihood-free Prompt Tuning](https://github.com/maohaos2/SBI_LLM) | ACL | 2023 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
+| Gradient-Free Soft Prompt Optimization | BPT-VLM | [Black-box Prompt Tuning for Vision-Language Model as a Service](https://www.ijcai.org/proceedings/2023/0187.pdf) | IJCAI | 2023 | [Python](https://github.com/BruthYU/BPT-VLM) |
+| Gradient-Free Soft Prompt Optimization | Fei et al. | [Gradient-Free Textual Inversion](https://dl.acm.org/doi/pdf/10.1145/3581783.3612599) | MM | 2023 | [Python](https://github.com/feizc/Gradient-Free-Textual-Inversion) |
 | Prompt Generation for Data Augmentation | Evol-Instruct | [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/pdf/2304.12244) | ICLR | 2024 | [Python](https://github.com/nlpxucan/WizardLM) |
 | Prompt Generation for Data Augmentation | Sun et al. | [Dial-insight: Fine-tuning Large Language Models with High-Quality Domain-Specific Data Preventing Capability Collapse](https://arxiv.org/pdf/2403.09167) | arXiv | 2024 | N/A |
 | Prompt Generation for Security | AutoDAN | [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models](https://arxiv.org/pdf/2310.04451) | ICLR | 2024 | [Python](https://github.com/SheltonLiu-N/AutoDAN) |
@@ -139,6 +144,7 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |      Applicable scenarios                   |
 | -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
 | ELM | [Evolution through Large Models](https://arxiv.org/pdf/2206.08896) | arXiv | 2022 | [Python](https://github.com/CarperAI/OpenELM) | Universal code generation |
+| OpenELM | [The OpenELM Library: Leveraging Progress in Language Models for Novel Evolutionary Algorithms](https://arxiv.org/pdf/2404.16906) | arXiv | 2024 | [Python](https://github.com/CarperAI/OpenELM) | Open-source Python library |
 | Pinna et al. | [Enhancing Large Language Models-Based Code Generation by Leveraging Genetic Improvement](https://link.springer.com/chapter/10.1007/978-3-031-56957-9_7) | ECGP | 2024 | [Python](https://github.com/dravalico/LLMGIpy) | Universal code generation |
 | WizardCoder | [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://openreview.net/pdf?id=UnUwSIgK5W) | ICLR | 2024 | [Python](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder) | Universal code generation |
 | SEED | [SEED: Domain-Specific Data Curation With Large Language Models](https://arxiv.org/pdf/2310.00749) | arXiv | 2023 | N/A | Data cleaning tasks |
