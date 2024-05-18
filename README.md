@@ -43,22 +43,22 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 
 ### LLM-assisted Black-box Optimization
 
-| **Category** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |      Name                   |
-| -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
-| Evaluation | [Exploring the True Potential: Evaluating the Black-Box Optimization Capability of Large Language Models](https://arxiv.org/pdf/2404.06290) | arXiv | 2024 | N/A | N/A |
-| Evaluation | [Towards Optimizing with Large Language Models](https://arxiv.org/pdf/2310.05204) | arXiv | 2023 | N/A | N/A |
-| Single-objective | [Large Language Models as Optimizers](https://arxiv.org/pdf/2309.03409) | ICLR | 2024 | [Python](https://github.com/google-deepmind/opro) | OPRO |
-| Single-objective | [Language Model Crossover: Variation through Few-Shot Prompting](https://arxiv.org/pdf/2302.12170) | arXiv | 2023 | N/A | LMX |
-| Single-objective | [Large Language Models as Evolutionary Optimizers](https://arxiv.org/pdf/2310.19046) | CEC | 2024 | N/A | LMEA |
-| Single-objective | [Large Language Models As Evolution Strategies](https://arxiv.org/pdf/2402.18381) | arXiv | 2024 | N/A | EvoLLM |
-| Single-objective | [How Multimodal Integration Boost the Performance of LLM for Optimization: Case Study on Capacitated Vehicle Routing Problems](https://arxiv.org/pdf/2403.01757) | arXiv | 2024 | N/A | Huang et al. |
-| Single-objective | [Large Language Model-Based Evolutionary Optimizer: Reasoning with Elitism](https://arxiv.org/pdf/2403.02054) | arXiv | 2024 | N/A | LEO |
-| Single-objective (Application) | [CUDA-Accelerated Soft Robot Neural Evolution with Large Language Model Supervision](https://arxiv.org/pdf/2405.00698) | arXiv | 2024 | N/A | Zhang |
-| Single-objective (Application) | [Evolving Interpretable Visual Classifiers with Large Language Models](https://arxiv.org/pdf/2404.09941) | arXiv | 2024 | N/A | LLM-Mutate |
-| Multi-objective | [Quality-Diversity through AI Feedback](https://arxiv.org/pdf/2310.13032v4) | Workshop at NeurIPS | 2023 | [Python](https://openreview.net/attachment?id=nr0w6CH7v4&name=supplementary_material) | QDAIF |
-| Multi-objective | [Large Language Model for Multi-objective Evolutionary Optimization](https://arxiv.org/pdf/2310.12541) | arXiv | 2023 | [Python](https://github.com/FeiLiu36/LLM4MOEA) | LLM4MOEA |
-| Multi-objective | [Large Language Models as In-context AI Generators for Quality-Diversity](https://arxiv.org/pdf/2404.15794) | arXiv | 2024 | N/A | In-context QD |
-| Multi-objective | [Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization](https://arxiv.org/pdf/2405.05767) | arXiv | 2024 | N/A | CMOEA-LLM |
+| **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
+| -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
+| Evaluation | N/A | [Exploring the True Potential: Evaluating the Black-Box Optimization Capability of Large Language Models](https://arxiv.org/pdf/2404.06290) | arXiv | 2024 | N/A |
+| Evaluation | N/A | [Towards Optimizing with Large Language Models](https://arxiv.org/pdf/2310.05204) | arXiv | 2023 | N/A |
+| Single-objective | OPRO | [Large Language Models as Optimizers](https://arxiv.org/pdf/2309.03409) | ICLR | 2024 | [Python](https://github.com/google-deepmind/opro) |
+| Single-objective | LMX | [Language Model Crossover: Variation through Few-Shot Prompting](https://arxiv.org/pdf/2302.12170) | arXiv | 2023 | N/A |
+| Single-objective | LMEA | [Large Language Models as Evolutionary Optimizers](https://arxiv.org/pdf/2310.19046) | CEC | 2024 | N/A |
+| Single-objective | EvoLLM | [Large Language Models As Evolution Strategies](https://arxiv.org/pdf/2402.18381) | arXiv | 2024 | N/A |
+| Single-objective | Huang et al. | [How Multimodal Integration Boost the Performance of LLM for Optimization: Case Study on Capacitated Vehicle Routing Problems](https://arxiv.org/pdf/2403.01757) | arXiv | 2024 | N/A |
+| Single-objective | LEO | [Large Language Model-Based Evolutionary Optimizer: Reasoning with Elitism](https://arxiv.org/pdf/2403.02054) | arXiv | 2024 | N/A |
+| Single-objective (Application) | Zhang et al. | [CUDA-Accelerated Soft Robot Neural Evolution with Large Language Model Supervision](https://arxiv.org/pdf/2405.00698) | arXiv | 2024 | N/A |
+| Single-objective (Application) | LLM-Mutate | [Evolving Interpretable Visual Classifiers with Large Language Models](https://arxiv.org/pdf/2404.09941) | arXiv | 2024 | N/A |
+| Multi-objective | QDAIF | [Quality-Diversity through AI Feedback](https://arxiv.org/pdf/2310.13032v4) | Workshop at NeurIPS | 2023 | [Python](https://openreview.net/attachment?id=nr0w6CH7v4&name=supplementary_material) |
+| Multi-objective | LLM4MOEA | [Large Language Model for Multi-objective Evolutionary Optimization](https://arxiv.org/pdf/2310.12541) | arXiv | 2023 | [Python](https://github.com/FeiLiu36/LLM4MOEA) |
+| Multi-objective | In-context QD | [Large Language Models as In-context AI Generators for Quality-Diversity](https://arxiv.org/pdf/2404.15794) | arXiv | 2024 | N/A |
+| Multi-objective | CMOEA-LLM | [Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization](https://arxiv.org/pdf/2405.05767) | arXiv | 2024 | N/A |
 
 
 ### LLM-assisted Optimization Algorithm Generation
@@ -89,8 +89,8 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 
 | **Category** |      Name                   | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
 | -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
-| Discrete Prompt Optimization | GrIPS | [GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models](https://arxiv.org/pdf/2203.07281) | EACL | 2023 | [Python](https://github.com/archiki/GrIPS) |
 | Discrete Prompt Optimization | GPS | [GPS: Genetic Prompt Search for Efficient Few-shot Learning](https://arxiv.org/pdf/2210.17041) | EMNLP | 2022 | [Python](https://github.com/hwxu20/GPS) |
+| Discrete Prompt Optimization | GrIPS | [GrIPS: Gradient-free, Edit-based Instruction Search for Prompting Large Language Models](https://arxiv.org/pdf/2203.07281) | EACL | 2023 | [Python](https://github.com/archiki/GrIPS) |
 | Discrete Prompt Optimization | EvoPrompt | [Connecting Large Language Models with Evolutionary Algorithms Yields Powerful Prompt Optimizers](https://arxiv.org/pdf/2309.08532) | ICLR | 2024 | [Python](https://github.com/beeevita/EvoPrompt) |
 | Discrete Prompt Optimization | Plum | [Plum: Prompt Learning Using Metaheuristic](https://arxiv.org/pdf/2311.08364) | arXiv | 2023 | [Python](https://github.com/research4pan/Plum) |
 | Discrete Prompt Optimization | PromptBreeder | [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/pdf/2309.16797) | arXiv | 2023 | N/A |
