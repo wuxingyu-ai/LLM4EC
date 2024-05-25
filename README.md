@@ -74,6 +74,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | LLM_GP | [Evolving Code with A Large Language Model](https://arxiv.org/pdf/2401.07102) | arXiv | 2024 | N/A | Genetic Programming |
 | SR-EAD | [Evolution Transformer: In-Context Evolutionary Optimization](https://arxiv.org/pdf/2403.02985) | arXiv | 2024 | [Python](https://github.com/RobertTLange/evosax) | Evolutionary strategy or evolution transformer |
 | EvolCAF | [Evolve Cost-aware Acquisition Functions Using Large Language Models](https://arxiv.org/pdf/2404.16906) | arXiv | 2024 | [Python](https://github.com/RobertTLange/evosax) | Cost-aware Bayesian optimization |
+| Kramer | [Large Language Models for Tuning Evolution Strategies](https://arxiv.org/pdf/2405.10999v1) | arXiv | 2024 | N/A | Evolution Strategies |
 
 
 ### LLM Empower EA for Other Capabilities
@@ -83,6 +84,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | OptiChat | [Diagnosing Infeasible Optimization Problems Using Large Language Models](https://arxiv.org/pdf/2308.12923) | arXiv | 2023 | [Python](https://github.com/li-group/OptiChat) | Identify potential sources of infeasibility |
 | AS-LLM | [Large Language Model-Enhanced Algorithm Selection: Towards Comprehensive Algorithm Representation](https://arxiv.org/pdf/2311.13184) | IJCAI | 2024 | [Python](https://github.com/wuxingyu-ai/AS-LLM) | Algorithm representation and algorithm selection |
 | GP4NLDR | [Explaining Genetic Programming Trees Using Large Language Models](https://arxiv.org/pdf/2403.03397) | arXiv | 2024 | N/A |  Provide explainability for results of EA |
+| Singh et al. | [Enhancing Decision-Making in Optimization through LLM-Assisted Inference: A Neural Networks Perspective](https://arxiv.org/pdf/2405.07212) | IJCNN | 2024 | N/A |  Provide explainability for results of EA |
 
 ## EA-enhanced LLM
 
@@ -198,6 +200,7 @@ Note: Methods reviewed here leverage the synergistic combination of EAs and LLMs
 | Natural Science | Researchers from McGill University | [14 Examples of How LLMs Can Transform Materials Science and Chemistry: A Reflection on a Large Language Model Hackathon](https://arxiv.org/pdf/2306.06283) | Digital Discovery | 2023 | N/A |
 | Natural Science | LLM-GA | [Integrating Genetic Algorithms and Language Models for Enhanced Enzyme Design](https://chemrxiv.org/engage/chemrxiv/article-details/65f0746b9138d23161510400) | ChemRxiv | 2024 | N/A |
 | Social Science | Suzuki et al. | [An Evolutionary Model of Personality Traits Related to Cooperative Behavior Using A Large Language Model](https://www.nature.com/articles/s41598-024-55903-y) | Scientific Reports | 2024 | N/A |
+| LLM as Agent | FoA | [Fleet of Agents: Coordinated Problem Solving with Large Language Models using Genetic Particle Filtering](https://arxiv.org/abs/2405.06691) | ArXiv | 2024 | N/A |
 
 Hope our conclusion can help your work.
 
