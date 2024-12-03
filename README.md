@@ -2,8 +2,8 @@
 
 A list of awesome papers and resources of the intersection of Large Language Models and Evolutionary Computation.
 
-🎉 ***News: Our survey has been released.***
-[Evolutionary Computation in the Era of Large Language Model: Survey and Roadmap](https://arxiv.org/pdf/2401.10034)
+🎉 ***News: Our survey has been accepted by IEEE Transactions on Evolutionary Computation (TEVC).***
+[Evolutionary Computation in the Era of Large Language Model: Survey and Roadmap](https://ieeexplore.ieee.org/document/10767756)
 
 ***The related work and projects will be updated soon and continuously.***
 
@@ -16,8 +16,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 @article{wu2024evolutionary,
   title={Evolutionary Computation in the Era of Large Language Model: Survey and Roadmap},
   author={Wu, Xingyu and Wu, Sheng-hao and Wu, Jibin and Feng, Liang and Tan, Kay Chen},
-  journal={CoRR},
-  volume={abs/2401.10034},
+  journal={IEEE Transactions on Evolutionary Computation},
   year={2024}
 }
 ```
