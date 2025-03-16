@@ -125,10 +125,13 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Gradient-Free Soft Prompt Optimization | Fei et al. | [Gradient-Free Textual Inversion](https://dl.acm.org/doi/pdf/10.1145/3581783.3612599) | MM | 2023 | [Python](https://github.com/feizc/Gradient-Free-Textual-Inversion) |
 | Prompt Generation for Data Augmentation | Evol-Instruct | [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/pdf/2304.12244) | ICLR | 2024 | [Python](https://github.com/nlpxucan/WizardLM) |
 | Prompt Generation for Data Augmentation | Sun et al. | [Dial-insight: Fine-tuning Large Language Models with High-Quality Domain-Specific Data Preventing Capability Collapse](https://arxiv.org/pdf/2403.09167) | arXiv | 2024 | N/A |
+| Prompt Generation for Data Augmentation | Boulesnane et al. | [An Evolutionary Large Language Model for Hallucination Mitigation](https://ieeexplore.ieee.org/abstract/document/10851107) | ECTE-Tech | 2024 | N/A |
 | Prompt Generation for Security | AutoDAN | [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models](https://arxiv.org/pdf/2310.04451) | ICLR | 2024 | [Python](https://github.com/SheltonLiu-N/AutoDAN) |
 | Prompt Generation for Security | Jailbreak Attacks | [Open Sesame! Universal Black Box Jailbreaking of Large Language Models](https://arxiv.org/pdf/2309.01446) | arXiv | 2024 | N/A |
 | Prompt Generation for Security | SMEA | [Is the System Message Really Important to Jailbreaks in Large Language Models?](https://arxiv.org/pdf/2402.14857) | arXiv | 2024 | N/A |
 | Prompt Generation for Security | Shi et al. | [Red Teaming Language Model Detectors with Language Models](https://arxiv.org/pdf/2305.19713) | TACL | 2024 | [Python](https://github.com/shizhouxing/LLM-Detector-Robustness) |
+| Prompt Generation for Security | LLM-Virus | [LLM-Virus: Evolutionary Jailbreak Attack on Large Language Models](https://arxiv.org/pdf/2305.19713) | TACL | 2024 | [Python](https://github.com/Ymm-cll/LLM-Virus) |
+
 
 ### EA-based LLM Architecture Search
 
