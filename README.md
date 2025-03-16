@@ -126,6 +126,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Prompt Generation for Data Augmentation | Evol-Instruct | [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/pdf/2304.12244) | ICLR | 2024 | [Python](https://github.com/nlpxucan/WizardLM) |
 | Prompt Generation for Data Augmentation | Sun et al. | [Dial-insight: Fine-tuning Large Language Models with High-Quality Domain-Specific Data Preventing Capability Collapse](https://arxiv.org/pdf/2403.09167) | arXiv | 2024 | N/A |
 | Prompt Generation for Data Augmentation | Boulesnane et al. | [An Evolutionary Large Language Model for Hallucination Mitigation](https://ieeexplore.ieee.org/abstract/document/10851107) | ECTE-Tech | 2024 | N/A |
+| Prompt Generation for Data Augmentation | TileGPT | [Generative Design through !ality-Diversity Data Synthesis and Language Models](https://dl.acm.org/doi/abs/10.1145/3638529.3654138) | GECCO | 2024 | N/A |
 | Prompt Generation for Security | AutoDAN | [AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models](https://arxiv.org/pdf/2310.04451) | ICLR | 2024 | [Python](https://github.com/SheltonLiu-N/AutoDAN) |
 | Prompt Generation for Security | Jailbreak Attacks | [Open Sesame! Universal Black Box Jailbreaking of Large Language Models](https://arxiv.org/pdf/2309.01446) | arXiv | 2024 | N/A |
 | Prompt Generation for Security | SMEA | [Is the System Message Really Important to Jailbreaks in Large Language Models?](https://arxiv.org/pdf/2402.14857) | arXiv | 2024 | N/A |
@@ -165,6 +166,7 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | LongRoPE | [LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/pdf/2402.13753) | arXiv | 2023 | [Python](https://github.com/microsoft/LongRoPE) | Extend the context window of LLMs to 2048k tokens |
 | BLADE | [BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models](https://arxiv.org/pdf/2403.18365) | arXiv | 2024 | N/A | Find soft prompts that optimizes the consistency between the outputs of two models |
 | Self-evolution in LLM | [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) | arXiv | 2024 | [Summary](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/Awesome-Self-Evolution-of-LLM) | Some studies for LLM self-evolution also adopted the ideas of EAs |
+| DSA | [Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models](https://openreview.net/forum?id=rgtrYVC9n4) | NeurIPS | 2024 | [Python](https://github.com/lliai/DSA) | Automated framework for discovering sparsity allocation schemes for layer-wise pruning in LLMs |
 | OPTISHEAR | [OPTISHEAR: Towards Efficient and Adaptive Pruning of Large Language Models via Evolutionary Optimization](https://arxiv.org/pdf/2502.10735) | arXiv | 2025 | N/A | An efficient evolutionary optimization framework for adaptive LLM pruning using NSGA-III |
 
 ## Applications Driven by Integrated Synergy of LLM and EA
@@ -177,6 +179,7 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | OpenELM | [The OpenELM Library: Leveraging Progress in Language Models for Novel Evolutionary Algorithms](https://arxiv.org/pdf/2404.16906) | arXiv | 2024 | [Python](https://github.com/CarperAI/OpenELM) | Open-source Python library |
 | Pinna et al. | [Enhancing Large Language Models-Based Code Generation by Leveraging Genetic Improvement](https://link.springer.com/chapter/10.1007/978-3-031-56957-9_7) | ECGP | 2024 | [Python](https://github.com/dravalico/LLMGIpy) | Universal code generation |
 | WizardCoder | [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://openreview.net/pdf?id=UnUwSIgK5W) | ICLR | 2024 | [Python](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder) | Universal code generation |
+| Evaluation | [Comparing Large Language Models and Grammatical Evolution for Code Generation](https://dl.acm.org/doi/abs/10.1145/3638530.3664162) | GECCO | 2024 | N/A | Universal code generation |
 | SEED | [SEED: Domain-Specific Data Curation With Large Language Models](https://arxiv.org/pdf/2310.00749) | arXiv | 2023 | N/A | Data cleaning tasks |
 | EUREKA | [Eureka: Human-Level Reward Design via Coding Large Language Models](https://arxiv.org/pdf/2310.12931) | ICLR | 2024 | [Python](https://github.com/eureka-research/Eureka) | Design reward in reinforcement learning |
 | EROM | [Evolutionary Reward Design and Optimization with Multimodal Large Language Models](https://openreview.net/pdf?id=PwlKdPDZK4) | Workshop at ICRA | 2023 | N/A | Design reward in reinforcement learning |
@@ -189,6 +192,8 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | Shojaee et al. | [Identify Critical Nodes in Complex Network with Large Language Models](https://arxiv.org/pdf/2403.03962) | arXiv | 2024 | [Python](https://anonymous.4open.science/r/LLM4CN-6520/README.md) | Node importance scoring functions in complex networks |
 | DeceptPrompt | [DeceptPrompt: Exploiting LLM-driven Code Generation via Adversarial Natural Language Instructions](https://arxiv.org/pdf/2312.04730) | arXiv | 2023 | N/A | For LLM Security |
 | G3P with LLM | [Program Synthesis with Generative Pre-trained Transformers and Grammar-Guided Genetic Programming Grammar](https://ieeexplore.ieee.org/document/10409384) | LA-CCI | 2023 | N/A | For LLM Security |
+| GAVEL | [GAVEL: Generating Games Via Evolution and Language Models](https://openreview.net/forum?id=oBvaZJ1C71) | NeurIPS | 2024 | [Python](https://github.com/gdrtodd/gavel) | For Games |
+
 
 ### Software Engineering
 
@@ -199,6 +204,8 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | ARJA-CLM | [Revisiting Evolutionary Program Repair via Code Language Model](https://arxiv.org/pdf/2408.10486) | arXiv | 2024 | N/A | Software Optimization (Program Repair) |
 | TitanFuzz | [Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models](https://dl.acm.org/doi/abs/10.1145/3597926.3598067) | ISSTA | 2023 | N/A | Software Testing |
 | CodaMOSA | [CODAMOSA: Escaping Coverage Plateaus in Test Generation with Pre-trained Large Language Models](https://ieeexplore.ieee.org/document/10172800) | ICSE | 2023 | [Python](https://github.com/microsoft/codamosa) | Software Testing |
+| LLM-Connect4 | [Large Language Model-based Test Case Generation for GP Agents](https://dl.acm.org/doi/abs/10.1145/3638529.3654056) | GECCO | 2024 | [Python](https://github.com/gpietrop/LLM-Connect4) | Software Testing |
+| pytLMtester | [LLM-enhanced Evolutionary Test Generation for Untyped Languages](https://link.springer.com/article/10.1007/s10515-025-00496-7) |  Automated Software Engineering | 2025 | [Python](https://github.com/yyyrf/pytLMtester) | Software Testing |
 | SBSE | [Search-based Optimisation of LLM Learning Shots for Story Point Estimation](https://dl.acm.org/doi/abs/10.1007/978-3-031-48796-5_9) | SSBSE | 2023 | N/A | Software Project Planning |
 
 ### Neural Architecture Search
