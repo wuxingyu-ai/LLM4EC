@@ -47,18 +47,23 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
 | Evaluation | N/A | [Exploring the True Potential: Evaluating the Black-Box Optimization Capability of Large Language Models](https://arxiv.org/pdf/2404.06290) | arXiv | 2024 | N/A |
 | Evaluation | N/A | [Towards Optimizing with Large Language Models](https://arxiv.org/pdf/2310.05204) | arXiv | 2023 | N/A |
+| Evaluation | N/A | [A Critical Examination of Large Language Model Capabilities in Iteratively Refining Differential Evolution Algorithm](https://dl.acm.org/doi/abs/10.1145/3638530.3664179) | GECCO | 2024 | N/A |
 | Single-objective | OPRO | [Large Language Models as Optimizers](https://arxiv.org/pdf/2309.03409) | ICLR | 2024 | [Python](https://github.com/google-deepmind/opro) |
 | Single-objective | LMX | [Language Model Crossover: Variation through Few-Shot Prompting](https://arxiv.org/pdf/2302.12170) | arXiv | 2023 | N/A |
 | Single-objective | LMEA | [Large Language Models as Evolutionary Optimizers](https://arxiv.org/pdf/2310.19046) | CEC | 2024 | N/A |
 | Single-objective | EvoLLM | [Large Language Models As Evolution Strategies](https://arxiv.org/pdf/2402.18381) | arXiv | 2024 | N/A |
-| Single-objective | Huang et al. | [How Multimodal Integration Boost the Performance of LLM for Optimization: Case Study on Capacitated Vehicle Routing Problems](https://arxiv.org/pdf/2403.01757) | arXiv | 2024 | N/A |
+| Single-objective | Huang et al. | [How Multimodal Integration Boost the Performance of LLM for Optimization: Case Study on Capacitated Vehicle Routing Problems](https://arxiv.org/pdf/2403.01757) | SSCI | 2025 | N/A |
 | Single-objective | LEO | [Large Language Model-Based Evolutionary Optimizer: Reasoning with Elitism](https://arxiv.org/pdf/2403.02054) | arXiv | 2024 | N/A |
+| Single-objective| LAEA | [Large Language Models as Surrogate Models in Evolutionary Algorithms: A Preliminary Study](https://www.sciencedirect.com/science/article/abs/pii/S2210650224002797) | SWEVO | 2024 | [Python](https://github.com/hhyqhh/LAEA.git) |
+| Single-objective| PAIR | [PAIR: A Novel Large Language Model-Guided Selection Strategy for Evolutionary Algorithms](https://arxiv.org/pdf/2503.03239) | arXiv | 2025 | [Python](https://github.com/SHIXOOM/PAIR) |
 | Single-objective (Application) | Zhang et al. | [CUDA-Accelerated Soft Robot Neural Evolution with Large Language Model Supervision](https://arxiv.org/pdf/2405.00698) | arXiv | 2024 | N/A |
 | Single-objective (Application) | LLM-Mutate | [Evolving Interpretable Visual Classifiers with Large Language Models](https://arxiv.org/pdf/2404.09941) | arXiv | 2024 | N/A |
 | Multi-objective | QDAIF | [Quality-Diversity through AI Feedback](https://arxiv.org/pdf/2310.13032v4) | Workshop at NeurIPS | 2023 | [Python](https://openreview.net/attachment?id=nr0w6CH7v4&name=supplementary_material) |
 | Multi-objective | LLM4MOEA | [Large Language Model for Multi-objective Evolutionary Optimization](https://arxiv.org/pdf/2310.12541) | arXiv | 2023 | [Python](https://github.com/FeiLiu36/LLM4MOEA) |
 | Multi-objective | In-context QD | [Large Language Models as In-context AI Generators for Quality-Diversity](https://arxiv.org/pdf/2404.15794) | arXiv | 2024 | N/A |
 | Multi-objective | CMOEA-LLM | [Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization](https://arxiv.org/pdf/2405.05767) | arXiv | 2024 | N/A |
+| Multi-objective |  LLM-assisted MOEA | [Large Language Model Aided Multi-objective Evolutionary Algorithm: a Low-cost Adaptive Approach](https://arxiv.org/pdf/2410.02301) | arXiv | 2024 | N/A |
+
 
 
 ### LLM-assisted Optimization Algorithm Generation
@@ -74,6 +79,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | SR-EAD | [Evolution Transformer: In-Context Evolutionary Optimization](https://arxiv.org/pdf/2403.02985) | arXiv | 2024 | [Python](https://github.com/RobertTLange/evosax) | Evolutionary strategy or evolution transformer |
 | EvolCAF | [Evolve Cost-aware Acquisition Functions Using Large Language Models](https://arxiv.org/pdf/2404.16906) | arXiv | 2024 | [Python](https://github.com/RobertTLange/evosax) | Cost-aware Bayesian optimization |
 | Kramer | [Large Language Models for Tuning Evolution Strategies](https://arxiv.org/pdf/2405.10999v1) | arXiv | 2024 | N/A | Evolution Strategies |
+| LLaMEA | [LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics](https://ieeexplore.ieee.org/abstract/document/10752628) | TEVC | 2024 | N/A | Heuristic algorithm |
 
 
 ### LLM Empower EA for Other Capabilities
@@ -84,6 +90,8 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | AS-LLM | [Large Language Model-Enhanced Algorithm Selection: Towards Comprehensive Algorithm Representation](https://arxiv.org/pdf/2311.13184) | IJCAI | 2024 | [Python](https://github.com/wuxingyu-ai/AS-LLM) | Algorithm representation and algorithm selection |
 | GP4NLDR | [Explaining Genetic Programming Trees Using Large Language Models](https://arxiv.org/pdf/2403.03397) | arXiv | 2024 | N/A |  Provide explainability for results of EA |
 | Singh et al. | [Enhancing Decision-Making in Optimization through LLM-Assisted Inference: A Neural Networks Perspective](https://arxiv.org/pdf/2405.07212) | IJCNN | 2024 | N/A |  Provide explainability for results of EA |
+| Custode et al. | [An Investigation on the Use of Large Language Models for Hyperparameter Tuning in Evolutionary Algorithms](https://dl.acm.org/doi/pdf/10.1145/3638530.3664163) | GECCO | 2024 | [Python](https://github.com/DIOL-UniTN/llm_step_size_adaptation) | Hyperparameter Tuning |
+
 
 ## EA-enhanced LLM
 
@@ -101,7 +109,8 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Discrete Prompt Optimization | iPrompt | [Explaining Patterns in Data with Language Models via Interpretable Autoprompting](https://arxiv.org/pdf/2210.01848) | arXiv | 2023 | [Python](https://openreview.net/attachment?id=GvMuB-YsiK6&name=supplementary_material) |
 | Discrete Prompt Optimization | PhaseEvo | [PhaseEvo: Towards Unified In-Context Prompt Optimization for Large Language Models](https://arxiv.org/pdf/2402.11347) | arXiv | 2024 | N/A |
 | Discrete Prompt Optimization | InstOptima | [InstOptima: Evolutionary Multi-objective Instruction Optimization via Large Language Model-based Instruction Operators](https://arxiv.org/pdf/2310.17630) | EMNLP | 2023 | [Python](https://github.com/yangheng95/InstOptima) |
-| Discrete Prompt Optimization | EMO-Prompts | [Evolutionary Multi-Objective Optimization of Large Language Model Prompts for Balancing Sentiments](https://arxiv.org/pdf/2401.09862) | EvoApplications | 2024 | [Python]() |
+| Discrete Prompt Optimization | EMO-Prompts | [Evolutionary Multi-Objective Optimization of Large Language Model Prompts for Balancing Sentiments](https://arxiv.org/pdf/2401.09862) | EvoApplications | 2024 | [Python](https://github.com/ollama/ollama) |
+| Discrete Prompt Optimization | RSBench | [Language Model Evolutionary Algorithms for Recommender Systems: Benchmarks and Algorithm Comparisons](https://arxiv.org/pdf/2411.10697) | arXiv | 2024 | N/A |
 | Gradient-Free Soft Prompt Optimization | BBT | [Black-Box Tuning for Language-Model-as-a-Service](https://proceedings.mlr.press/v162/sun22e/sun22e.pdf) | ICML | 2022 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
 | Gradient-Free Soft Prompt Optimization | BBTv2 | [BBTv2: Towards a Gradient-Free Future with Large Language Models](https://arxiv.org/pdf/2205.11200) | EMNLP | 2022 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
 | Gradient-Free Soft Prompt Optimization | Clip-Tuning | [Clip-Tuning: Towards Derivative-free Prompt Learning with a Mixture of Rewards](https://aclanthology.org/2022.findings-emnlp.8.pdf) | EMNLP | 2022 | N/A |
@@ -195,11 +204,13 @@ Note: Methods reviewed here leverage the synergistic combination of EAs and LLMs
 | Text Generation | NSG | [Enhancing LLM with Evolutionary Fine Tuning for News Summary Generation](https://arxiv.org/pdf/2307.02839) | Journal of Intelligent and Fuzzy Systems | 2024 | N/A |
 | Text Generation | SCAPE | [SCAPE: Searching Conceptual Architecture Prompts using Evolution](https://arxiv.org/pdf/2402.00089) | CEC | 2024 | [Python](https://github.com/soolinglim/webllm/) |
 | Text Generation | Mario-GPT | [Prompt-Guided Level Generation](https://dl.acm.org/doi/abs/10.1145/3583133.3590656) | GECCO | 2024 | [Python](https://github.com/shyamsn97/mario-gpt) |
+| Text Generation | Cai et al. | [Simulation of Language Evolution under Regulated Social Media Platforms: A Synergistic Approach of Large Language Models and Genetic Algorithms](https://arxiv.org/pdf/2502.19193) | arXiv | 2025 | N/A |
 | Text-to-image Generation | StableYolo | [StableYolo: Optimizing Image Generation for Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-48796-5_10) | SSBSE | 2023 | [Python](https://github.com/SOLAR-group/StableYolo) |
 | Natural Science | Researchers from McGill University | [14 Examples of How LLMs Can Transform Materials Science and Chemistry: A Reflection on a Large Language Model Hackathon](https://arxiv.org/pdf/2306.06283) | Digital Discovery | 2023 | N/A |
 | Natural Science | LLM-GA | [Integrating Genetic Algorithms and Language Models for Enhanced Enzyme Design](https://chemrxiv.org/engage/chemrxiv/article-details/65f0746b9138d23161510400) | ChemRxiv | 2024 | N/A |
 | Social Science | Suzuki et al. | [An Evolutionary Model of Personality Traits Related to Cooperative Behavior Using A Large Language Model](https://www.nature.com/articles/s41598-024-55903-y) | Scientific Reports | 2024 | N/A |
-| LLM as Agent | FoA | [Fleet of Agents: Coordinated Problem Solving with Large Language Models using Genetic Particle Filtering](https://arxiv.org/abs/2405.06691) | ArXiv | 2024 | N/A |
+| LLM as Agent | FoA | [Fleet of Agents: Coordinated Problem Solving with Large Language Models using Genetic Particle Filtering](https://arxiv.org/abs/2405.06691) | arXiv | 2024 | N/A |
+| Machine Learning | ELLM-FT | [Evolutionary Large Language Model for Automated Feature Transformation](https://arxiv.org/pdf/2405.16203) | arXiv | 2024 | [Python](https://github.com/NanxuGong/ELLM-FT) |
 
 Hope our conclusion can help your work.
 
