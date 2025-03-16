@@ -48,6 +48,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Evaluation | N/A | [Exploring the True Potential: Evaluating the Black-Box Optimization Capability of Large Language Models](https://arxiv.org/pdf/2404.06290) | arXiv | 2024 | N/A |
 | Evaluation | N/A | [Towards Optimizing with Large Language Models](https://arxiv.org/pdf/2310.05204) | arXiv | 2023 | N/A |
 | Evaluation | N/A | [A Critical Examination of Large Language Model Capabilities in Iteratively Refining Differential Evolution Algorithm](https://dl.acm.org/doi/abs/10.1145/3638530.3664179) | GECCO | 2024 | N/A |
+| Evaluation | N/A | [Can Large Language Models Be Trusted as Black-Box Evolutionary Optimizers for Combinatorial Problems?](https://arxiv.org/pdf/2501.15081) | arXiv | 2025 | N/A |
 | Single-objective | OPRO | [Large Language Models as Optimizers](https://arxiv.org/pdf/2309.03409) | ICLR | 2024 | [Python](https://github.com/google-deepmind/opro) |
 | Single-objective | LMX | [Language Model Crossover: Variation through Few-Shot Prompting](https://arxiv.org/pdf/2302.12170) | arXiv | 2023 | N/A |
 | Single-objective | LMEA | [Large Language Models as Evolutionary Optimizers](https://arxiv.org/pdf/2310.19046) | CEC | 2024 | N/A |
@@ -80,6 +81,9 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | EvolCAF | [Evolve Cost-aware Acquisition Functions Using Large Language Models](https://arxiv.org/pdf/2404.16906) | arXiv | 2024 | [Python](https://github.com/RobertTLange/evosax) | Cost-aware Bayesian optimization |
 | Kramer | [Large Language Models for Tuning Evolution Strategies](https://arxiv.org/pdf/2405.10999v1) | arXiv | 2024 | N/A | Evolution Strategies |
 | LLaMEA | [LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics](https://ieeexplore.ieee.org/abstract/document/10752628) | TEVC | 2024 | N/A | Heuristic algorithm |
+| Evaluation | [Understanding the Importance of Evolutionary Search in Automated Heuristic Design with Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-70068-2_12) | PPSN | 2024 | [Python](https://github.com/zhichao-lu/llm-eps) | Combinatorial Optimization Problem |
+| Pluhacek et al. | [Using LLM for Automatic Evolvement of Metaheuristics from Swarm Algorithm SOMA](https://dl.acm.org/doi/abs/10.1145/3638530.3664181) | GECCO | 2024 | N/A | Self-Organizing Migrating Algorithm |
+| Pang et al. | [Large Language Model-Based Benchmarking Experiment Settings for Evolutionary Multi-Objective Optimization](https://arxiv.org/pdf/2502.21108) | arXiv | 2025 | N/A | Multi-Objective EA |
 
 
 ### LLM Empower EA for Other Capabilities
@@ -136,6 +140,14 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | LiteTransformerSearch | [LiteTransformerSearch: Training-free Neural Architecture Search for Efficient Language Models](https://arxiv.org/pdf/2203.02094) | NeurIPS | 2022 | [Python](https://github.com/microsoft/archai/tree/neurips-lts/archai/nlp) | GPT-2 |
 | Klein et al. | [Structural Pruning of Large Language Models via Neural Architecture Search](https://openreview.net/pdf?id=SHlZcInS6C) | AutoML | 2023 | N/A | BERT |
 | Choong et al. | [Jack and Masters of All Trades: One-Pass Learning of a Set of Model Sets from Foundation AI Models](https://arxiv.org/pdf/2205.00671) | IEEE CIM | 2023 | N/A | M2M100-418M, ResNet-18 |
+
+### EA-based LLM Merging
+
+| **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
+| -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
+| Merging Recipes | [Evolutionary Optimization of Model Merging Recipes](https://www.nature.com/articles/s42256-024-00975-8) | NMI | 2025 | [Python](https://github.com/SakanaAI/evolutionary-model-merge) |
+| GENOME+ | [Evolutionary Optimization of Model Merging Recipes](https://arxiv.org/pdf/2403.13187) | arXiv | 2025 | [Python](https://github.com/ZhangYiqun018/GENOME) |
+
 
 ### EA Empower LLM for Other Capabilities
 
@@ -208,8 +220,11 @@ Note: Methods reviewed here leverage the synergistic combination of EAs and LLMs
 | Text-to-image Generation | StableYolo | [StableYolo: Optimizing Image Generation for Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-48796-5_10) | SSBSE | 2023 | [Python](https://github.com/SOLAR-group/StableYolo) |
 | Natural Science | Researchers from McGill University | [14 Examples of How LLMs Can Transform Materials Science and Chemistry: A Reflection on a Large Language Model Hackathon](https://arxiv.org/pdf/2306.06283) | Digital Discovery | 2023 | N/A |
 | Natural Science | LLM-GA | [Integrating Genetic Algorithms and Language Models for Enhanced Enzyme Design](https://chemrxiv.org/engage/chemrxiv/article-details/65f0746b9138d23161510400) | ChemRxiv | 2024 | N/A |
+| Natural Science | MLDE | [Protein Design by Directed Evolution Guided by Large Language Models](https://ieeexplore.ieee.org/abstract/document/10628050) | TEVC | 2024 | [Python](https://github.com/HySonLab/Directed_Evolution) |
+| Natural Science | MolLEO | [Efficient Evolutionary Search Over Chemical Space with Large Language Models](https://openreview.net/forum?id=Bvlw0pFRS0) | ICML Workshop | 2024 | [Python](https://github.com/zoom-wang112358/MOLLEO) |
 | Social Science | Suzuki et al. | [An Evolutionary Model of Personality Traits Related to Cooperative Behavior Using A Large Language Model](https://www.nature.com/articles/s41598-024-55903-y) | Scientific Reports | 2024 | N/A |
 | LLM as Agent | FoA | [Fleet of Agents: Coordinated Problem Solving with Large Language Models using Genetic Particle Filtering](https://arxiv.org/abs/2405.06691) | arXiv | 2024 | N/A |
+| LLM as Agent | EvoAgnet | [EVOAGENT: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms](https://arxiv.org/pdf/2406.14228?) | NeurIPS Workshop | 2024 | [Python](https://github.com/siyuyuan/evoagent) |
 | Machine Learning | ELLM-FT | [Evolutionary Large Language Model for Automated Feature Transformation](https://arxiv.org/pdf/2405.16203) | arXiv | 2024 | [Python](https://github.com/NanxuGong/ELLM-FT) |
 
 Hope our conclusion can help your work.
