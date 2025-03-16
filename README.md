@@ -64,7 +64,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Multi-objective | In-context QD | [Large Language Models as In-context AI Generators for Quality-Diversity](https://arxiv.org/pdf/2404.15794) | arXiv | 2024 | N/A |
 | Multi-objective | CMOEA-LLM | [Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization](https://arxiv.org/pdf/2405.05767) | arXiv | 2024 | N/A |
 | Multi-objective |  LLM-assisted MOEA | [Large Language Model Aided Multi-objective Evolutionary Algorithm: a Low-cost Adaptive Approach](https://arxiv.org/pdf/2410.02301) | arXiv | 2024 | N/A |
-
+| Multi-objective (Application) | IlmPC-NSGA-II | [Generative Evolution Attacks Portfolio Selection](https://ieeexplore.ieee.org/abstract/document/10612020) | CEC | 2024 | N/A |
 
 
 ### LLM-assisted Optimization Algorithm Generation
@@ -115,6 +115,8 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Discrete Prompt Optimization | InstOptima | [InstOptima: Evolutionary Multi-objective Instruction Optimization via Large Language Model-based Instruction Operators](https://arxiv.org/pdf/2310.17630) | EMNLP | 2023 | [Python](https://github.com/yangheng95/InstOptima) |
 | Discrete Prompt Optimization | EMO-Prompts | [Evolutionary Multi-Objective Optimization of Large Language Model Prompts for Balancing Sentiments](https://arxiv.org/pdf/2401.09862) | EvoApplications | 2024 | [Python](https://github.com/ollama/ollama) |
 | Discrete Prompt Optimization | RSBench | [Language Model Evolutionary Algorithms for Recommender Systems: Benchmarks and Algorithm Comparisons](https://arxiv.org/pdf/2411.10697) | arXiv | 2024 | N/A |
+| Discrete Prompt Optimization | evoPrompt | [Exploring the Prompt Space of Large Language Models through Evolutionary Sampling](https://dl.acm.org/doi/pdf/10.1145/3638529.3654049) | GECCO | 2024 | [Python](https://github.com/Martisal/evoPrompt) |
+| Discrete Prompt Optimization | PREDO | [Prompt Evolutionary Design Optimization with Generative Shape and Vision-Language models](https://ieeexplore.ieee.org/abstract/document/10611898) | CEC | 2024 | N/A |
 | Gradient-Free Soft Prompt Optimization | BBT | [Black-Box Tuning for Language-Model-as-a-Service](https://proceedings.mlr.press/v162/sun22e/sun22e.pdf) | ICML | 2022 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
 | Gradient-Free Soft Prompt Optimization | BBTv2 | [BBTv2: Towards a Gradient-Free Future with Large Language Models](https://arxiv.org/pdf/2205.11200) | EMNLP | 2022 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
 | Gradient-Free Soft Prompt Optimization | Clip-Tuning | [Clip-Tuning: Towards Derivative-free Prompt Learning with a Mixture of Rewards](https://aclanthology.org/2022.findings-emnlp.8.pdf) | EMNLP | 2022 | N/A |
