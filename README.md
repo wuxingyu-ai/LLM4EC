@@ -149,6 +149,8 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
 | Merging Recipes | [Evolutionary Optimization of Model Merging Recipes](https://www.nature.com/articles/s42256-024-00975-8) | NMI | 2025 | [Python](https://github.com/SakanaAI/evolutionary-model-merge) |
 | GENOME+ | [Evolutionary Optimization of Model Merging Recipes](https://arxiv.org/pdf/2403.13187) | arXiv | 2025 | [Python](https://github.com/ZhangYiqun018/GENOME) |
+| EEM-TISP | [Evolutionary Expert Model Merging with Task-Adaptive Iterative Self-Improvement Process for Large Language Modeling on Aspect-Based Sentiment Analysis](https://ieeexplore.ieee.org/abstract/document/10799461) | IoTaIS | 2024 | N/A |
+
 
 
 ### EA Empower LLM for Other Capabilities
@@ -158,9 +160,9 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | Length-Adaptive Transformer Model | [Length-Adaptive Transformer: Train Once with Length Drop, Use Anytime with Search](https://aclanthology.org/2021.acl-long.508.pdf) | ACL | 2021 | [Python](https://github.com/clovaai/length-adaptive-transformer) | Automatically adjust the sequence length according to different computational resource constraints |
 | HexGen | [HexGen: Generative Inference of Large-Scale Foundation Model over Heterogeneous Decentralized Environment](https://arxiv.org/pdf/2311.11514) | arXiv | 2023 | [Python](https://github.com/Relaxed-System-Lab/HexGen) | Deploy generative inference services for LLMs in a heterogeneous distributed environment |
 | LongRoPE | [LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/pdf/2402.13753) | arXiv | 2023 | [Python](https://github.com/microsoft/LongRoPE) | Extend the context window of LLMs to 2048k tokens |
-| Evolutionary Model Merge | [Evolutionary Optimization of Model Merging Recipes](https://arxiv.org/pdf/2403.13187) | arXiv | 2024 | [Python](https://github.com/SakanaAI/evolutionary-model-merge) | Utilize CMA-ES algorithm to optimize merged LLM in both parameter and data flow space |
 | BLADE | [BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models](https://arxiv.org/pdf/2403.18365) | arXiv | 2024 | N/A | Find soft prompts that optimizes the consistency between the outputs of two models |
 | Self-evolution in LLM | [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) | arXiv | 2024 | [Summary](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/Awesome-Self-Evolution-of-LLM) | Some studies for LLM self-evolution also adopted the ideas of EAs |
+| OPTISHEAR | [OPTISHEAR: Towards Efficient and Adaptive Pruning of Large Language Models via Evolutionary Optimization](https://arxiv.org/pdf/2502.10735) | arXiv | 2025 | N/A | An efficient evolutionary optimization framework for adaptive LLM pruning using NSGA-III |
 
 ## Applications Driven by Integrated Synergy of LLM and EA
 
@@ -191,6 +193,7 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ | --------------------- |
 | Kang et al. | [Towards Objective-Tailored Genetic Improvement Through Large Language Models](https://ieeexplore.ieee.org/abstract/document/10190823) | Workshop at ICSE | 2023 | N/A | Software Optimization |
 | Brownlee et al. | [Enhancing Genetic Improvement Mutations Using Large Language Models](https://arxiv.org/pdf/2310.19813) | SSBSE | 2023 | N/A | Software Optimization |
+| ARJA-CLM | [Revisiting Evolutionary Program Repair via Code Language Model](https://arxiv.org/pdf/2408.10486) | arXiv | 2024 | N/A | Software Optimization (Program Repair) |
 | TitanFuzz | [Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models](https://dl.acm.org/doi/abs/10.1145/3597926.3598067) | ISSTA | 2023 | N/A | Software Testing |
 | CodaMOSA | [CODAMOSA: Escaping Coverage Plateaus in Test Generation with Pre-trained Large Language Models](https://ieeexplore.ieee.org/document/10172800) | ICSE | 2023 | [Python](https://github.com/microsoft/codamosa) | Software Testing |
 | SBSE | [Search-based Optimisation of LLM Learning Shots for Story Point Estimation](https://dl.acm.org/doi/abs/10.1007/978-3-031-48796-5_9) | SSBSE | 2023 | N/A | Software Project Planning |
@@ -224,6 +227,7 @@ Note: Methods reviewed here leverage the synergistic combination of EAs and LLMs
 | Natural Science | LLM-GA | [Integrating Genetic Algorithms and Language Models for Enhanced Enzyme Design](https://chemrxiv.org/engage/chemrxiv/article-details/65f0746b9138d23161510400) | ChemRxiv | 2024 | N/A |
 | Natural Science | MLDE | [Protein Design by Directed Evolution Guided by Large Language Models](https://ieeexplore.ieee.org/abstract/document/10628050) | TEVC | 2024 | [Python](https://github.com/HySonLab/Directed_Evolution) |
 | Natural Science | MolLEO | [Efficient Evolutionary Search Over Chemical Space with Large Language Models](https://openreview.net/forum?id=Bvlw0pFRS0) | ICML Workshop | 2024 | [Python](https://github.com/zoom-wang112358/MOLLEO) |
+| Natural Science | Reinhart et al. | [Large Language Models Design Sequence-defined Macromolecules via Evolutionary Optimization](https://www.nature.com/articles/s41524-024-01449-6.pdf) | NPJ Computational Materials | 2024 | N/A |
 | Social Science | Suzuki et al. | [An Evolutionary Model of Personality Traits Related to Cooperative Behavior Using A Large Language Model](https://www.nature.com/articles/s41598-024-55903-y) | Scientific Reports | 2024 | N/A |
 | LLM as Agent | FoA | [Fleet of Agents: Coordinated Problem Solving with Large Language Models using Genetic Particle Filtering](https://arxiv.org/abs/2405.06691) | arXiv | 2024 | N/A |
 | LLM as Agent | EvoAgnet | [EVOAGENT: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms](https://arxiv.org/pdf/2406.14228?) | NeurIPS Workshop | 2024 | [Python](https://github.com/siyuyuan/evoagent) |
