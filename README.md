@@ -56,6 +56,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Single-objective | Huang et al. | [How Multimodal Integration Boost the Performance of LLM for Optimization: Case Study on Capacitated Vehicle Routing Problems](https://arxiv.org/pdf/2403.01757) | SSCI | 2025 | N/A |
 | Single-objective | LEO | [Large Language Model-Based Evolutionary Optimizer: Reasoning with Elitism](https://arxiv.org/pdf/2403.02054) | arXiv | 2024 | N/A |
 | Single-objective| LAEA | [Large Language Models as Surrogate Models in Evolutionary Algorithms: A Preliminary Study](https://www.sciencedirect.com/science/article/abs/pii/S2210650224002797) | SWEVO | 2024 | [Python](https://github.com/hhyqhh/LAEA.git) |
+| Single-objective| BERTMutation | [Deep Learning-Based Operators for Evolutionary Algorithms](https://arxiv.org/pdf/2407.10477) | arXiv | 2024 | N/A |
 | Single-objective| PAIR | [PAIR: A Novel Large Language Model-Guided Selection Strategy for Evolutionary Algorithms](https://arxiv.org/pdf/2503.03239) | arXiv | 2025 | [Python](https://github.com/SHIXOOM/PAIR) |
 | Single-objective (Application) | Zhang et al. | [CUDA-Accelerated Soft Robot Neural Evolution with Large Language Model Supervision](https://arxiv.org/pdf/2405.00698) | arXiv | 2024 | N/A |
 | Single-objective (Application) | LLM-Mutate | [Evolving Interpretable Visual Classifiers with Large Language Models](https://arxiv.org/pdf/2404.09941) | arXiv | 2024 | N/A |
@@ -65,7 +66,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Multi-objective | CMOEA-LLM | [Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization](https://arxiv.org/pdf/2405.05767) | arXiv | 2024 | N/A |
 | Multi-objective |  LLM-assisted MOEA | [Large Language Model Aided Multi-objective Evolutionary Algorithm: a Low-cost Adaptive Approach](https://arxiv.org/pdf/2410.02301) | arXiv | 2024 | N/A |
 | Multi-objective (Application) | IlmPC-NSGA-II | [Generative Evolution Attacks Portfolio Selection](https://ieeexplore.ieee.org/abstract/document/10612020) | CEC | 2024 | N/A |
-| Multi-objective (Application) | $ \mu $ MOEA | [An LLM-Empowered Adaptive Evolutionary Algorithm For Multi-Component Deep Learning Systems](https://arxiv.org/pdf/2501.00829) | arXiv | 2025 | N/A |
+| Multi-objective (Application) | $\mu$MOEA | [An LLM-Empowered Adaptive Evolutionary Algorithm For Multi-Component Deep Learning Systems](https://arxiv.org/pdf/2501.00829) | arXiv | 2025 | N/A |
 
 
 ### LLM-assisted Optimization Algorithm Generation
@@ -84,6 +85,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | LLaMEA | [LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics](https://ieeexplore.ieee.org/abstract/document/10752628) | TEVC | 2024 | N/A | Heuristic algorithm |
 | Evaluation | [Understanding the Importance of Evolutionary Search in Automated Heuristic Design with Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-70068-2_12) | PPSN | 2024 | [Python](https://github.com/zhichao-lu/llm-eps) | Combinatorial Optimization Problem |
 | Pluhacek et al. | [Using LLM for Automatic Evolvement of Metaheuristics from Swarm Algorithm SOMA](https://dl.acm.org/doi/abs/10.1145/3638530.3664181) | GECCO | 2024 | N/A | Self-Organizing Migrating Algorithm |
+| EoT | [LLM Guided Evolution - The Automation of Models Advancing Models](https://arxiv.org/pdf/2403.11446) | GECCO | 2024 | [Python](https://github.com/clint-kristopher-morris/llm-guided-evolution) |  Evolutionary Algorithm |
 | Pang et al. | [Large Language Model-Based Benchmarking Experiment Settings for Evolutionary Multi-Objective Optimization](https://arxiv.org/pdf/2502.21108) | arXiv | 2025 | N/A | Multi-Objective EA |
 
 
