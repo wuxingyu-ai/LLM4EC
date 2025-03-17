@@ -87,6 +87,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Evaluation | [Understanding the Importance of Evolutionary Search in Automated Heuristic Design with Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-70068-2_12) | PPSN | 2024 | [Python](https://github.com/zhichao-lu/llm-eps) | Combinatorial Optimization Problem |
 | Pluhacek et al. | [Using LLM for Automatic Evolvement of Metaheuristics from Swarm Algorithm SOMA](https://dl.acm.org/doi/abs/10.1145/3638530.3664181) | GECCO | 2024 | N/A | Self-Organizing Migrating Algorithm |
 | EoT | [LLM Guided Evolution - The Automation of Models Advancing Models](https://arxiv.org/pdf/2403.11446) | GECCO | 2024 | [Python](https://github.com/clint-kristopher-morris/llm-guided-evolution) |  Evolutionary Algorithm |
+| MEoH | [Multi-objective Evolution of Heuristic Using Large Language Model](https://arxiv.org/pdf/2409.16867) | AAAI | 2025 | [Python](https://github.com/Optima-CityU/LLM4AD) |  Heuristic algorithm |
 | Pang et al. | [Large Language Model-Based Benchmarking Experiment Settings for Evolutionary Multi-Objective Optimization](https://arxiv.org/pdf/2502.21108) | arXiv | 2025 | N/A | Multi-Objective EA |
 
 
@@ -205,6 +206,7 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | DeceptPrompt | [DeceptPrompt: Exploiting LLM-driven Code Generation via Adversarial Natural Language Instructions](https://arxiv.org/pdf/2312.04730) | arXiv | 2023 | N/A | For LLM Security |
 | G3P with LLM | [Program Synthesis with Generative Pre-trained Transformers and Grammar-Guided Genetic Programming Grammar](https://ieeexplore.ieee.org/document/10409384) | LA-CCI | 2023 | N/A | For LLM Security |
 | GAVEL | [GAVEL: Generating Games Via Evolution and Language Models](https://openreview.net/forum?id=oBvaZJ1C71) | NeurIPS | 2024 | [Python](https://github.com/gdrtodd/gavel) | For Games |
+| AutoTurb | [AutoTurb: Using Large Language Models for Automatic Algebraic Model Discovery of Turbulence Closure](https://pubs.aip.org/aip/pof/article-abstract/37/1/015211/3331579) | Physics of Fluid | 2025 | N/A | Reynolds-averaged Navier-Stokes equations |
 
 
 ### Software Engineering
