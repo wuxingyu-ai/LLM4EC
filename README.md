@@ -98,6 +98,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | GP4NLDR | [Explaining Genetic Programming Trees Using Large Language Models](https://arxiv.org/pdf/2403.03397) | arXiv | 2024 | N/A |  Provide explainability for results of EA |
 | Singh et al. | [Enhancing Decision-Making in Optimization through LLM-Assisted Inference: A Neural Networks Perspective](https://arxiv.org/pdf/2405.07212) | IJCNN | 2024 | N/A |  Provide explainability for results of EA |
 | Custode et al. | [An Investigation on the Use of Large Language Models for Hyperparameter Tuning in Evolutionary Algorithms](https://dl.acm.org/doi/pdf/10.1145/3638530.3664163) | GECCO | 2024 | [Python](https://github.com/DIOL-UniTN/llm_step_size_adaptation) | Hyperparameter Tuning |
+| LLM+STNWeb | [Large Language Models for the Automated Analysis of Optimization Algorithms](https://dl.acm.org/doi/abs/10.1145/3638529.3654086) | GECCO | 2024 | N/A | Visualizations of optimization algorithm behavior |
 
 
 ## EA-enhanced LLM
@@ -171,6 +172,7 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | Self-evolution in LLM | [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) | arXiv | 2024 | [Summary](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/Awesome-Self-Evolution-of-LLM) | Some studies for LLM self-evolution also adopted the ideas of EAs |
 | DSA | [Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models](https://openreview.net/forum?id=rgtrYVC9n4) | NeurIPS | 2024 | [Python](https://github.com/lliai/DSA) | Automated framework for discovering sparsity allocation schemes for layer-wise pruning in LLMs |
 | OPTISHEAR | [OPTISHEAR: Towards Efficient and Adaptive Pruning of Large Language Models via Evolutionary Optimization](https://arxiv.org/pdf/2502.10735) | arXiv | 2025 | N/A | An efficient evolutionary optimization framework for adaptive LLM pruning using NSGA-III |
+| DarwinLM | [DarwinLM: Evolutionary Structured Pruning of Large Language Models](https://arxiv.org/pdf/2502.07780) | arXiv | 2025 | [Python](https://github.com/IST-DASLab/DarwinLM) | Training-aware structured pruning for LLM |
 
 ## Applications Driven by Integrated Synergy of LLM and EA
 
@@ -234,6 +236,7 @@ Note: Methods reviewed here leverage the synergistic combination of EAs and LLMs
 | -------- | --------------------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
 | Text Generation | NSG | [Enhancing LLM with Evolutionary Fine Tuning for News Summary Generation](https://arxiv.org/pdf/2307.02839) | Journal of Intelligent and Fuzzy Systems | 2024 | N/A |
 | Text Generation | SCAPE | [SCAPE: Searching Conceptual Architecture Prompts using Evolution](https://arxiv.org/pdf/2402.00089) | CEC | 2024 | [Python](https://github.com/soolinglim/webllm/) |
+| Text Generation | ROIL | [ROIL: Rule Optimization via Large Language Model for Imitation Learning](https://ieeexplore.ieee.org/abstract/document/10612166) | CEC | 2024 | [Python](https://github.com/Juno-T/ROIL) |
 | Text Generation | Mario-GPT | [Prompt-Guided Level Generation](https://dl.acm.org/doi/abs/10.1145/3583133.3590656) | GECCO | 2024 | [Python](https://github.com/shyamsn97/mario-gpt) |
 | Text Generation | Cai et al. | [Simulation of Language Evolution under Regulated Social Media Platforms: A Synergistic Approach of Large Language Models and Genetic Algorithms](https://arxiv.org/pdf/2502.19193) | arXiv | 2025 | N/A |
 | Text-to-image Generation | StableYolo | [StableYolo: Optimizing Image Generation for Large Language Models](https://link.springer.com/chapter/10.1007/978-3-031-48796-5_10) | SSBSE | 2023 | [Python](https://github.com/SOLAR-group/StableYolo) |
@@ -249,6 +252,7 @@ Note: Methods reviewed here leverage the synergistic combination of EAs and LLMs
 | LLM as Agent | EvoAgnet | [EVOAGENT: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms](https://arxiv.org/pdf/2406.14228?) | NeurIPS Workshop | 2024 | [Python](https://github.com/siyuyuan/evoagent) |
 | Data Mining (Feature Engineering) | ELLM-FT | [Evolutionary Large Language Model for Automated Feature Transformation](https://arxiv.org/pdf/2405.16203) | arXiv | 2024 | [Python](https://github.com/NanxuGong/ELLM-FT) |
 | Data Mining (Knowledge Graph) | EvoPath | [EvoPath: Evolutionary Meta-path Discovery with Large Language Models for Complex Heterogeneous Information Networks](https://www.sciencedirect.com/science/article/pii/S0306457324002796) | IPM | 2025 | N/A |
+
 
 Hope our conclusion can help your work.
 
