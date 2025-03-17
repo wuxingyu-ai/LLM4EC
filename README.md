@@ -65,6 +65,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Multi-objective | CMOEA-LLM | [Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization](https://arxiv.org/pdf/2405.05767) | arXiv | 2024 | N/A |
 | Multi-objective |  LLM-assisted MOEA | [Large Language Model Aided Multi-objective Evolutionary Algorithm: a Low-cost Adaptive Approach](https://arxiv.org/pdf/2410.02301) | arXiv | 2024 | N/A |
 | Multi-objective (Application) | IlmPC-NSGA-II | [Generative Evolution Attacks Portfolio Selection](https://ieeexplore.ieee.org/abstract/document/10612020) | CEC | 2024 | N/A |
+| Multi-objective (Application) | $\mu$MOEA | [An LLM-Empowered Adaptive Evolutionary Algorithm For Multi-Component Deep Learning Systems](https://arxiv.org/pdf/2501.00829) | arXiv | 2025 | N/A |
 
 
 ### LLM-assisted Optimization Algorithm Generation
@@ -240,11 +241,12 @@ Note: Methods reviewed here leverage the synergistic combination of EAs and LLMs
 | Natural Science | MolLEO | [Efficient Evolutionary Search Over Chemical Space with Large Language Models](https://openreview.net/forum?id=Bvlw0pFRS0) | ICML Workshop | 2024 | [Python](https://github.com/zoom-wang112358/MOLLEO) |
 | Natural Science | Reinhart et al. | [Large Language Models Design Sequence-defined Macromolecules via Evolutionary Optimization](https://www.nature.com/articles/s41524-024-01449-6.pdf) | NPJ Computational Materials | 2024 | N/A |
 | Social Science | Suzuki et al. | [An Evolutionary Model of Personality Traits Related to Cooperative Behavior Using A Large Language Model](https://www.nature.com/articles/s41598-024-55903-y) | Scientific Reports | 2024 | N/A |
-| Social Science | Wan et al. | [Enhancing healthcare resource allocation through large language models](https://www.sciencedirect.com/science/article/pii/S2210650225000173) | Swarm and Evolutionary Computation | 2025 | N/A |
+| Social Science | Medema Emily | [Why would the Internet lie to me?: Analyzing the Performance of Misinformation on Twitter utilizing Large Language Models, Machine Learning, and Evolutionary Computing](https://www.proquest.com/openview/04d6cbda66ef46b4a4a0b2656647e31e/1?cbl=18750&diss=y&pq-origsite=gscholar) | Thesis | 2024 | N/A |
+| Social Science | Wan et al. | [Enhancing Healthcare Resource Allocation through Large Language Models](https://www.sciencedirect.com/science/article/pii/S2210650225000173) | Swarm and Evolutionary Computation | 2025 | N/A |
 | LLM as Agent | FoA | [Fleet of Agents: Coordinated Problem Solving with Large Language Models using Genetic Particle Filtering](https://arxiv.org/abs/2405.06691) | arXiv | 2024 | N/A |
 | LLM as Agent | EvoAgnet | [EVOAGENT: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms](https://arxiv.org/pdf/2406.14228?) | NeurIPS Workshop | 2024 | [Python](https://github.com/siyuyuan/evoagent) |
 | Data Mining (Feature Engineering) | ELLM-FT | [Evolutionary Large Language Model for Automated Feature Transformation](https://arxiv.org/pdf/2405.16203) | arXiv | 2024 | [Python](https://github.com/NanxuGong/ELLM-FT) |
-| Data Mining (Knowledge Graph) | EvoPath | [EvoPath: Evolutionary meta-path discovery with large language models for complex heterogeneous information networks](https://www.sciencedirect.com/science/article/pii/S0306457324002796) | IPM | 2025 | N/A |
+| Data Mining (Knowledge Graph) | EvoPath | [EvoPath: Evolutionary Meta-path Discovery with Large Language Models for Complex Heterogeneous Information Networks](https://www.sciencedirect.com/science/article/pii/S0306457324002796) | IPM | 2025 | N/A |
 
 Hope our conclusion can help your work.
 
