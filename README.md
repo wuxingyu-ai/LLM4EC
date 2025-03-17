@@ -152,14 +152,17 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | Klein et al. | [Structural Pruning of Large Language Models via Neural Architecture Search](https://openreview.net/pdf?id=SHlZcInS6C) | AutoML | 2023 | N/A | BERT |
 | Choong et al. | [Jack and Masters of All Trades: One-Pass Learning of a Set of Model Sets from Foundation AI Models](https://arxiv.org/pdf/2205.00671) | IEEE CIM | 2023 | N/A | M2M100-418M, ResNet-18 |
 
-### EA-based LLM Merging
+### EA-based LLM Merging and Pruning
 
 | **Name** | **Paper**                                                    | **Venue** | **Year** | **Code**                                               |
 | -------- | ------------------------------------------------------------ | --------- | -------- | ------------------------------------------------------------ |
 | Merging Recipes | [Evolutionary Optimization of Model Merging Recipes](https://www.nature.com/articles/s42256-024-00975-8) | NMI | 2025 | [Python](https://github.com/SakanaAI/evolutionary-model-merge) |
 | GENOME+ | [Evolutionary Optimization of Model Merging Recipes](https://arxiv.org/pdf/2403.13187) | arXiv | 2025 | [Python](https://github.com/ZhangYiqun018/GENOME) |
 | EEM-TISP | [Evolutionary Expert Model Merging with Task-Adaptive Iterative Self-Improvement Process for Large Language Modeling on Aspect-Based Sentiment Analysis](https://ieeexplore.ieee.org/abstract/document/10799461) | IoTaIS | 2024 | N/A |
-
+| DSA | [Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models](https://openreview.net/forum?id=rgtrYVC9n4) | NeurIPS | 2024 | [Python](https://github.com/lliai/DSA) | <!-- Automated framework for discovering sparsity allocation schemes for layer-wise pruning in LLMs | -->
+| OPTISHEAR | [OPTISHEAR: Towards Efficient and Adaptive Pruning of Large Language Models via Evolutionary Optimization](https://arxiv.org/pdf/2502.10735) | arXiv | 2025 | N/A | <!--An efficient evolutionary optimization framework for adaptive LLM pruning using NSGA-III |-->
+| DarwinLM | [DarwinLM: Evolutionary Structured Pruning of Large Language Models](https://arxiv.org/pdf/2502.07780) | arXiv | 2025 | [Python](https://github.com/IST-DASLab/DarwinLM) | <!--Training-aware structured pruning for LLM |-->
+| GenePrune | [GenePrune: Automated Pruning of Large Language Models for Code using Genetic Algorithm](https://openreview.net/pdf?id=sVWJ904F9Q) | ICLR Workshop | 2025 | N/A | <!--Training-aware structured pruning for LLM |-->
 
 
 ### EA Empower LLM for Other Capabilities
@@ -172,9 +175,6 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | BLADE | [BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models](https://arxiv.org/pdf/2403.18365) | arXiv | 2024 | N/A | Find soft prompts that optimizes the consistency between the outputs of two models |
 | Self-evolution in LLM | [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) | arXiv | 2024 | [Summary](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/Awesome-Self-Evolution-of-LLM) | Some studies for LLM self-evolution also adopted the ideas of EAs |
 | LSAP | [Local Search-based Approach for Cost-effective Job Assignment on Large Language Models](https://dl.acm.org/doi/10.1145/3638530.3654104) | GECCO | 2024 | N/A | Select an appropriate LLM and prompt template |
-| DSA | [Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models](https://openreview.net/forum?id=rgtrYVC9n4) | NeurIPS | 2024 | [Python](https://github.com/lliai/DSA) | Automated framework for discovering sparsity allocation schemes for layer-wise pruning in LLMs |
-| OPTISHEAR | [OPTISHEAR: Towards Efficient and Adaptive Pruning of Large Language Models via Evolutionary Optimization](https://arxiv.org/pdf/2502.10735) | arXiv | 2025 | N/A | An efficient evolutionary optimization framework for adaptive LLM pruning using NSGA-III |
-| DarwinLM | [DarwinLM: Evolutionary Structured Pruning of Large Language Models](https://arxiv.org/pdf/2502.07780) | arXiv | 2025 | [Python](https://github.com/IST-DASLab/DarwinLM) | Training-aware structured pruning for LLM |
 
 
 ## Applications Driven by Integrated Synergy of LLM and EA
