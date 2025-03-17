@@ -32,6 +32,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
   - [EA-enhanced LLM](#ea-enhanced-llm)
     - [EA-based Prompt Engineering](#ea-based-prompt-engineering)
     - [EA-based LLM Architecture Search](#ea-based-llm-architecture-search)
+    - [EA-based LLM Merging and Pruning](#ea-based-llm-merging-and-pruning)
     - [EA Empower LLM for Other Capabilities](#ea-empower-llm-for-other-capabilities)
   - [Applications Driven by Integrated Synergy of LLM and EA](#applications-driven-by-integrated-synergy-of-llm-and-ea)
     - [Code Generation](#code-generation)
