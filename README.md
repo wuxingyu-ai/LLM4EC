@@ -65,7 +65,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Multi-objective | CMOEA-LLM | [Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization](https://arxiv.org/pdf/2405.05767) | arXiv | 2024 | N/A |
 | Multi-objective |  LLM-assisted MOEA | [Large Language Model Aided Multi-objective Evolutionary Algorithm: a Low-cost Adaptive Approach](https://arxiv.org/pdf/2410.02301) | arXiv | 2024 | N/A |
 | Multi-objective (Application) | IlmPC-NSGA-II | [Generative Evolution Attacks Portfolio Selection](https://ieeexplore.ieee.org/abstract/document/10612020) | CEC | 2024 | N/A |
-| Multi-objective (Application) | $\mu$MOEA | [An LLM-Empowered Adaptive Evolutionary Algorithm For Multi-Component Deep Learning Systems](https://arxiv.org/pdf/2501.00829) | arXiv | 2025 | N/A |
+| Multi-objective (Application) | %\mu%MOEA | [An LLM-Empowered Adaptive Evolutionary Algorithm For Multi-Component Deep Learning Systems](https://arxiv.org/pdf/2501.00829) | arXiv | 2025 | N/A |
 
 
 ### LLM-assisted Optimization Algorithm Generation
