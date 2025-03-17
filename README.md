@@ -67,6 +67,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Multi-objective | CMOEA-LLM | [Large Language Model-Aided Evolutionary Search for Constrained Multiobjective Optimization](https://arxiv.org/pdf/2405.05767) | arXiv | 2024 | N/A |
 | Multi-objective |  LLM-assisted MOEA | [Large Language Model Aided Multi-objective Evolutionary Algorithm: a Low-cost Adaptive Approach](https://arxiv.org/pdf/2410.02301) | arXiv | 2024 | N/A |
 | Multi-objective (Application) | IlmPC-NSGA-II | [Generative Evolution Attacks Portfolio Selection](https://ieeexplore.ieee.org/abstract/document/10612020) | CEC | 2024 | N/A |
+| Multi-objective (Application) | LEDMA | [Large Language Model Based Multi-Objective Optimization for Integrated Sensing and Communications in UAV Networks](https://arxiv.org/pdf/2410.05062) | IEEE Wireless Communications Letters | 2025 | N/A |
 | Multi-objective (Application) | $\mu$MOEA | [An LLM-Empowered Adaptive Evolutionary Algorithm For Multi-Component Deep Learning Systems](https://arxiv.org/pdf/2501.00829) | arXiv | 2025 | N/A |
 
 
@@ -162,6 +163,7 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | EEM-TISP | [Evolutionary Expert Model Merging with Task-Adaptive Iterative Self-Improvement Process for Large Language Modeling on Aspect-Based Sentiment Analysis](https://ieeexplore.ieee.org/abstract/document/10799461) | IoTaIS | 2024 | N/A |
 | MAP | [MAP: Low-compute Model Merging with Amortized Pareto Fronts via Quadratic Approximation](https://arxiv.org/pdf/2406.07529) | arXiv | 2024 | [Python](https://github.com/luli-git/MAP) |
 | MM-MO | [It's Morphing Time: Unleashing the Potential of Multiple LLMs via Multi-objective Optimization](https://arxiv.org/pdf/2407.00487) | arXiv | 2024 | N/A |
+| ModelKinship | [Exploring Model Kinship for Merging Large Language Models](https://arxiv.org/pdf/2410.12613) | arXiv | 2024 | [Python](https://github.com/zjunlp/ModelKinship) |
 | GENOME+ | [Nature-Inspired Population-Based Evolution of Large Language Models](https://arxiv.org/pdf/2503.01155) | arXiv | 2025 | [Python](https://github.com/ZhangYiqun018/GENOME) |
 | DSA | [Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models](https://openreview.net/forum?id=rgtrYVC9n4) | NeurIPS | 2024 | [Python](https://github.com/lliai/DSA) | <!-- Automated framework for discovering sparsity allocation schemes for layer-wise pruning in LLMs | -->
 | OPTISHEAR | [OPTISHEAR: Towards Efficient and Adaptive Pruning of Large Language Models via Evolutionary Optimization](https://arxiv.org/pdf/2502.10735) | arXiv | 2025 | N/A | <!--An efficient evolutionary optimization framework for adaptive LLM pruning using NSGA-III |-->
@@ -255,7 +257,8 @@ Note: Methods reviewed here leverage the synergistic combination of EAs and LLMs
 | Natural Science | Reinhart et al. | [Large Language Models Design Sequence-defined Macromolecules via Evolutionary Optimization](https://www.nature.com/articles/s41524-024-01449-6.pdf) | NPJ Computational Materials | 2024 | N/A |
 | Social Science | Suzuki et al. | [An Evolutionary Model of Personality Traits Related to Cooperative Behavior Using A Large Language Model](https://www.nature.com/articles/s41598-024-55903-y) | Scientific Reports | 2024 | N/A |
 | Social Science | Medema Emily | [Why would the Internet lie to me?: Analyzing the Performance of Misinformation on Twitter utilizing Large Language Models, Machine Learning, and Evolutionary Computing](https://www.proquest.com/openview/04d6cbda66ef46b4a4a0b2656647e31e/1?cbl=18750&diss=y&pq-origsite=gscholar) | Thesis | 2024 | N/A |
-| Social Science | Wan et al. | [Enhancing Healthcare Resource Allocation through Large Language Models](https://www.sciencedirect.com/science/article/pii/S2210650225000173) | Swarm and Evolutionary Computation | 2025 | N/A |
+| Engineering  | Wan et al. | [Enhancing Healthcare Resource Allocation through Large Language Models](https://www.sciencedirect.com/science/article/pii/S2210650225000173) | Swarm and Evolutionary Computation | 2025 | N/A |
+| Engineering  | PoL | [Large Language Model as a Catalyst: A Paradigm Shift in Base Station Siting Optimization](https://ieeexplore.ieee.org/abstract/document/10915543) | TEVC | 2025 | N/A |
 | LLM as Agent | FoA | [Fleet of Agents: Coordinated Problem Solving with Large Language Models using Genetic Particle Filtering](https://arxiv.org/abs/2405.06691) | arXiv | 2024 | N/A |
 | LLM as Agent | EvoAgnet | [EVOAGENT: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms](https://arxiv.org/pdf/2406.14228?) | NeurIPS Workshop | 2024 | [Python](https://github.com/siyuyuan/evoagent) |
 | Data Mining (Feature Engineering) | ELLM-FT | [Evolutionary Large Language Model for Automated Feature Transformation](https://arxiv.org/pdf/2405.16203) | arXiv | 2024 | [Python](https://github.com/NanxuGong/ELLM-FT) |
