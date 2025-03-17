@@ -121,6 +121,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Discrete Prompt Optimization | RSBench | [Language Model Evolutionary Algorithms for Recommender Systems: Benchmarks and Algorithm Comparisons](https://arxiv.org/pdf/2411.10697) | arXiv | 2024 | N/A |
 | Discrete Prompt Optimization | evoPrompt | [Exploring the Prompt Space of Large Language Models through Evolutionary Sampling](https://dl.acm.org/doi/pdf/10.1145/3638529.3654049) | GECCO | 2024 | [Python](https://github.com/Martisal/evoPrompt) |
 | Discrete Prompt Optimization | PREDO | [Prompt Evolutionary Design Optimization with Generative Shape and Vision-Language models](https://ieeexplore.ieee.org/abstract/document/10611898) | CEC | 2024 | N/A |
+| Discrete Prompt Optimization | LLM2FEA | [LLM2FEA: Discover Novel Designs with Generative Evolutionary Multitasking](https://ieeexplore.ieee.org/abstract/document/10611898) | arXiv | 2024 | N/A |
 | Gradient-Free Soft Prompt Optimization | BBT | [Black-Box Tuning for Language-Model-as-a-Service](https://proceedings.mlr.press/v162/sun22e/sun22e.pdf) | ICML | 2022 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
 | Gradient-Free Soft Prompt Optimization | BBTv2 | [BBTv2: Towards a Gradient-Free Future with Large Language Models](https://arxiv.org/pdf/2205.11200) | EMNLP | 2022 | [Python](https://github.com/txsun1997/Black-Box-Tuning) |
 | Gradient-Free Soft Prompt Optimization | Clip-Tuning | [Clip-Tuning: Towards Derivative-free Prompt Learning with a Mixture of Rewards](https://aclanthology.org/2022.findings-emnlp.8.pdf) | EMNLP | 2022 | N/A |
@@ -170,9 +171,11 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | LongRoPE | [LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/pdf/2402.13753) | arXiv | 2023 | [Python](https://github.com/microsoft/LongRoPE) | Extend the context window of LLMs to 2048k tokens |
 | BLADE | [BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models](https://arxiv.org/pdf/2403.18365) | arXiv | 2024 | N/A | Find soft prompts that optimizes the consistency between the outputs of two models |
 | Self-evolution in LLM | [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) | arXiv | 2024 | [Summary](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/Awesome-Self-Evolution-of-LLM) | Some studies for LLM self-evolution also adopted the ideas of EAs |
+| LSAP | [Local Search-based Approach for Cost-effective Job Assignment on Large Language Models](https://dl.acm.org/doi/10.1145/3638530.3654104) | GECCO | 2024 | N/A | Select an appropriate LLM and prompt template |
 | DSA | [Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models](https://openreview.net/forum?id=rgtrYVC9n4) | NeurIPS | 2024 | [Python](https://github.com/lliai/DSA) | Automated framework for discovering sparsity allocation schemes for layer-wise pruning in LLMs |
 | OPTISHEAR | [OPTISHEAR: Towards Efficient and Adaptive Pruning of Large Language Models via Evolutionary Optimization](https://arxiv.org/pdf/2502.10735) | arXiv | 2025 | N/A | An efficient evolutionary optimization framework for adaptive LLM pruning using NSGA-III |
 | DarwinLM | [DarwinLM: Evolutionary Structured Pruning of Large Language Models](https://arxiv.org/pdf/2502.07780) | arXiv | 2025 | [Python](https://github.com/IST-DASLab/DarwinLM) | Training-aware structured pruning for LLM |
+
 
 ## Applications Driven by Integrated Synergy of LLM and EA
 
