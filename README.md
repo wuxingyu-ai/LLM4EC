@@ -140,6 +140,7 @@ If our work has been of assistance to you, please feel free to cite our survey. 
 | Prompt Generation for Security | SMEA | [Is the System Message Really Important to Jailbreaks in Large Language Models?](https://arxiv.org/pdf/2402.14857) | arXiv | 2024 | N/A |
 | Prompt Generation for Security | Shi et al. | [Red Teaming Language Model Detectors with Language Models](https://arxiv.org/pdf/2305.19713) | TACL | 2024 | [Python](https://github.com/shizhouxing/LLM-Detector-Robustness) |
 | Prompt Generation for Security | LLM-Virus | [LLM-Virus: Evolutionary Jailbreak Attack on Large Language Models](https://arxiv.org/pdf/2305.19713) | TACL | 2024 | [Python](https://github.com/Ymm-cll/LLM-Virus) |
+| Prompt Generation for Security | ASJA | [Multi-Turn Jailbreaking Large Language Models via Attention Shifting](http://xhdu.github.io/files/AAAI25.pdf) | AAAI | 2025 | N/A |
 
 
 ### EA-based LLM Architecture Search
@@ -165,6 +166,7 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | MM-MO | [It's Morphing Time: Unleashing the Potential of Multiple LLMs via Multi-objective Optimization](https://arxiv.org/pdf/2407.00487) | arXiv | 2024 | N/A |
 | ModelKinship | [Exploring Model Kinship for Merging Large Language Models](https://arxiv.org/pdf/2410.12613) | arXiv | 2024 | [Python](https://github.com/zjunlp/ModelKinship) |
 | GENOME+ | [Nature-Inspired Population-Based Evolution of Large Language Models](https://arxiv.org/pdf/2503.01155) | arXiv | 2025 | [Python](https://github.com/ZhangYiqun018/GENOME) |
+| COSMos | [COSMosFL: Ensemble of Small Language Models for Fault Localisation](https://arxiv.org/pdf/2502.02908) | arXiv | 2025 | [Python](https://github.com/coinse/cosmosfl) |
 | DSA | [Discovering Sparsity Allocation for Layer-wise Pruning of Large Language Models](https://openreview.net/forum?id=rgtrYVC9n4) | NeurIPS | 2024 | [Python](https://github.com/lliai/DSA) | <!-- Automated framework for discovering sparsity allocation schemes for layer-wise pruning in LLMs | -->
 | OPTISHEAR | [OPTISHEAR: Towards Efficient and Adaptive Pruning of Large Language Models via Evolutionary Optimization](https://arxiv.org/pdf/2502.10735) | arXiv | 2025 | N/A | <!--An efficient evolutionary optimization framework for adaptive LLM pruning using NSGA-III |-->
 | DarwinLM | [DarwinLM: Evolutionary Structured Pruning of Large Language Models](https://arxiv.org/pdf/2502.07780) | arXiv | 2025 | [Python](https://github.com/IST-DASLab/DarwinLM) | <!--Training-aware structured pruning for LLM |-->
@@ -181,6 +183,7 @@ Note: Approaches discussed here primarily focus on LLM architecture search, and 
 | BLADE | [BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models](https://arxiv.org/pdf/2403.18365) | arXiv | 2024 | N/A | Find soft prompts that optimizes the consistency between the outputs of two models |
 | Self-evolution in LLM | [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/pdf/2404.14387) | arXiv | 2024 | [Summary](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/Awesome-Self-Evolution-of-LLM) | Some studies for LLM self-evolution also adopted the ideas of EAs |
 | LSAP | [Local Search-based Approach for Cost-effective Job Assignment on Large Language Models](https://dl.acm.org/doi/10.1145/3638530.3654104) | GECCO | 2024 | N/A | Select an appropriate LLM and prompt template |
+| EvoTox | [How Toxic Can You Get? Search-based Toxicity Testing for Large Language Models](https://arxiv.org/pdf/2501.01741) | arXiv | 2025 | [Python](https://github.com/matteocamilli/EvoTox/tree/tse) | A framework to evaluate how much can a Large Language Model be toxic |
 
 
 ## Applications Driven by Integrated Synergy of LLM and EA
